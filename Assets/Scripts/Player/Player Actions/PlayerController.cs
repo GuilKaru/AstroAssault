@@ -185,7 +185,19 @@ namespace AstroAssault
 			_currentShootMode = mode;
 			Debug.Log($"Shooting mode changed to: {(_currentShootMode == 1 ? "Automatic" : "Shotgun")}");
 		}
-		#endregion
-	}
+        #endregion
+
+        #region Collision
+
+        private void OnCollisionEnter2D(Collision2D collision)
+        {
+            if(collision.gameObject.CompareTag("Border"))
+			{
+				_rb.MovePosition(Vector2.zero);
+			}
+        }
+
+        #endregion
+    }
 }
 
