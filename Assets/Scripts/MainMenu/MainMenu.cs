@@ -1,3 +1,6 @@
+using Boom;
+using MainMenu;
+using TMPro;
 using UnityEngine;
 
 namespace AstroAssault
@@ -13,6 +16,12 @@ namespace AstroAssault
         private GameObject _mainMenu;
         [SerializeField]
         private GameObject _gameCanvas;
+
+        [SerializeField]
+        private PlayerData _playerData;
+
+        [SerializeField]
+        private TextMeshProUGUI _scoreTextAA;
         #endregion
 
         public void ChangeLoginMenu()
@@ -37,6 +46,35 @@ namespace AstroAssault
             _gameCanvas.SetActive(true);
 
             //Start Game Logic
+        }
+
+        public void NameSafe(string username)
+        {
+            _playerData.username = username;
+            _usernameMenu.SetActive(false);
+        }
+
+        public void ScoreUpdateAA()
+        {
+            var principal = UserUtil.GetPrincipal();
+            EntityUtil.TryGetFieldAsText(principal, "score", "maxscore", out var outScore, "None");
+
+            if (outScore == "None" || outScore == null)
+            {
+                ScoreSafeAA("0");
+            }
+            else
+            {
+                ScoreSafeAA(outScore);
+            }
+
+        }
+
+        public void ScoreSafeAA(string score)
+        {
+            _playerData.maxScoreAA = int.Parse(score);
+            //MainMenuGameManager.mMgameManager.boomLeadearboardPO.SetLeaderboardEntry("set_leaderboard_1", score, MainMenuGameManager.mMgameManager.playerData.username);
+            _scoreTextAA.text = "Max Score: " + score;
         }
     }
 }
