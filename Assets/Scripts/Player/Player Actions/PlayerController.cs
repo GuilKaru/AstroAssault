@@ -31,6 +31,11 @@ namespace AstroAssault
 		[Header("Shotgun Settings")]
 		[SerializeField] private int _shotgunPelletCount = 3;
 		[SerializeField] private float[] _shotgunSpreadAngles = { -30f, 0f, 30f };
+
+		[Header("Animation")]
+		[SerializeField]
+		private Animator _animator;
+
 		#endregion
 
 		//Private Variables
@@ -42,6 +47,16 @@ namespace AstroAssault
 		private InputAction _shootAction;
 		private int _currentShootMode = 1; // 1: Automatic, 2: Shotgun
 		private Coroutine _shootingCoroutine;
+		private bool _wasMoving = false;
+		#endregion
+
+		//References
+		#region References
+
+		//Animations
+		private string _currentState;
+		private string _idleAnim = "Player_Idle";
+		private string _walkingAnim = "Player_Walk";
 		#endregion
 
 		// Initialization
@@ -65,6 +80,8 @@ namespace AstroAssault
 			// Setup input actions
 			_moveAction = _playerInput.actions["Move"];
 			_shootAction = _playerInput.actions["Shoot"];
+
+			ChangeAnimationState(_idleAnim);
 		}
 
 		private void OnEnable()
@@ -103,6 +120,7 @@ namespace AstroAssault
 		private void FixedUpdate()
 		{
 			MovePlayer();
+			UpdateAnimationState();
 		}
 
 		private void Move(InputAction.CallbackContext context)
@@ -188,17 +206,58 @@ namespace AstroAssault
         #endregion
 
 		//Collision
-        #region Collision
+		#region Collision
 
-        private void OnCollisionEnter2D(Collision2D collision)
-        {
-            if(collision.gameObject.CompareTag("Border"))
+		private void OnCollisionEnter2D(Collision2D collision)
+		{
+			if(collision.gameObject.CompareTag("Border"))
 			{
 				_rb.MovePosition(Vector2.zero);
 			}
-        }
 
-        #endregion
-    }
+		}
+		#endregion
+
+
+		//Player Animations
+		#region Player Animations
+		private void ChangeAnimationState(string newState)
+		{
+			// Avoid transitioning to the same animation
+			if (_currentState == newState) return;
+
+			// Play the new animation
+			_animator.Play(newState);
+
+			// Update the current state
+			_currentState = newState;
+
+		}
+
+		private void UpdateAnimationState()
+		{
+			bool isCurrentlyMoving = _moveInput != Vector2.zero;
+
+			if (isCurrentlyMoving)
+			{
+				// If moving, play the walking animation
+				ChangeAnimationState(_walkingAnim);
+				_wasMoving = true;
+			}
+			else
+			{
+				if (_wasMoving)
+				{
+					// If the player just stopped movin
+					_wasMoving = false;
+					ChangeAnimationState(_idleAnim);
+				}
+			}
+		}
+
+		#endregion
+
+
+	}
 }
 
