@@ -46,6 +46,7 @@ namespace AstroAssault
             _gameCanvas.SetActive(true);
 
             //Start Game Logic
+            GameManager.gameManager.StartGame();
         }
 
         public void NameSafe(string username)

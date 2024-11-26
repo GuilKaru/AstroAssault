@@ -35,22 +35,30 @@ namespace AstroAssault
 		//Initialization
 		#region Initialization
 
-		private void Start()
+		//private void Start()
+		//{
+		//	// Initialize the spawner with the first enemy only (Asteroid)
+		//	_enemySpawner.SetSpawnableEnemies(new GameObject[] { _enemyPrefabs[0] });
+		//	_drillSpawner.SetSpawnableDrills(null);
+		//}
+
+		public void SetSpawners()
 		{
-			// Initialize the spawner with the first enemy only (Asteroid)
-			_enemySpawner.SetSpawnableEnemies(new GameObject[] { _enemyPrefabs[0] });
-			_drillSpawner.SetSpawnableDrills(null);
-		}
+            // Initialize the spawner with the first enemy only (Asteroid)
+            _enemySpawner.SetSpawnableEnemies(new GameObject[] { _enemyPrefabs[0] });
+            _drillSpawner.SetSpawnableDrills(null);
+        }
 
 		private void Update()
 		{
-			// Check score every frame
-			int currentScore = _scoreManager.GetScore();
+            if (!GameManager.gameManager.gameStarted) return;
+
+            // Check score every frame
+            int currentScore = _scoreManager.GetScore();
 
 			// Check if we should unlock a new enemy type
 			if (_currentLevel < _scoreMilestones.Length && currentScore >= _scoreMilestones[_currentLevel])
-			{
-				
+			{		
 				UnlockNewEnemy();
 			}
 

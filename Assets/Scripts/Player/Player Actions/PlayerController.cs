@@ -119,7 +119,9 @@ namespace AstroAssault
 		#region Movement
 		private void FixedUpdate()
 		{
-			MovePlayer();
+            if (!GameManager.gameManager.gameStarted) return;
+
+            MovePlayer();
 			UpdateAnimationState();
 		}
 
@@ -140,7 +142,9 @@ namespace AstroAssault
 		#region Shooting
 		private void OnShootStart(InputAction.CallbackContext context)
 		{
-			if (_shootingCoroutine == null)
+            if (!GameManager.gameManager.gameStarted) return;
+
+            if (_shootingCoroutine == null)
 			{
 				_shootingCoroutine = StartCoroutine(ShootingCoroutine());
 			}
