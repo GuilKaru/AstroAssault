@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 5619835314325473315}
   m_Layer: 7
   m_Name: EnemyShoot
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -137,11 +137,15 @@ MonoBehaviour:
   _enemyBulletPrefab: {fileID: 8630930039567718491, guid: d3fc2dd257c51574fb8bf03b22e2f5d3, type: 3}
   _shootingPoint: {fileID: 5319609209463116973}
   _shootInterval: 0.5
+  _canShoot: 1
   _verticalSpeed: 2
   _verticalAmplitude: 2.5
   _horizontalSpeed: 1
   _destroyXThreshold: -15
   _scorePoints: 100
+  _buff1Prefab: {fileID: 7317702618939439578, guid: f25fef387dfbae247813f5159d9c4d08, type: 3}
+  _buff2Prefab: {fileID: 6040874723535597199, guid: 569de9808c7434f40b0559579ffe1ef6, type: 3}
+  _buffSpawnChance: 0.25
 --- !u!50 &4076355147382498653
 Rigidbody2D:
   serializedVersion: 5

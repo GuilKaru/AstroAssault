@@ -40,6 +40,7 @@ namespace AstroAssault
 
 		private void SpawnEnemy()
 		{
+			if (!GameManager.gameManager.gameStarted) return;
 			if (_currentEnemies == null || _currentEnemies.Length == 0) return;
 
 			// Pick a random enemy prefab

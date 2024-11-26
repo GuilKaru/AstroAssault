@@ -18,17 +18,11 @@ namespace AstroAssault
 		#region Private Variables
 		public bool IsDead { get; private set; } = false;
 
-
-
-		//public UiManager uiManager;
-
 		private HeartContainer _heartContainer;
-
 		public KeyCode invincibilityToggleKey = KeyCode.I; // Key to toggle invincibility
 		private bool _isInvincible = false; // Whether the player is currently invincible
-
+		private Vector3 _initialPosition;
 		private PlayerController _playerController;
-		//private UIManager _uIManager;
 
 		#endregion
 
@@ -39,7 +33,7 @@ namespace AstroAssault
 			_heartContainer = heartContainerObject.GetComponent<HeartContainer>();
 			_heartContainer.SetMaxHearts(maxHearts);
 			_playerController = FindObjectOfType<PlayerController>();
-			//_uIManager = FindObjectOfType<UIManager>();
+			_initialPosition = transform.position;
 
 		}
 
@@ -86,13 +80,22 @@ namespace AstroAssault
 			// If health reaches 0, trigger GameOver
 			if (currentHearts <= 0 && !IsDead)
 			{
-
-				Time.timeScale = 0f;
+				GameManager.gameManager.GameOverUI(IsDead);
 				IsDead = true; // Set IsDead to true
-				   //_uIManager.GameOverActive();
 
 			}
 		}
+
+
+		public void ResetPosition()
+		{
+			transform.position = _initialPosition; // Reset to the initial position
+		}
+		public void ResetDeathStatus() 
+		{ 
+			IsDead = false; 
+		}
+
 		#endregion
 	}
 

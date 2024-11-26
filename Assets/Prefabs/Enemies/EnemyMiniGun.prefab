@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7238080094659753194}
   m_Layer: 7
   m_Name: EnemyMiniGun
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -181,7 +181,11 @@ MonoBehaviour:
   _shootInterval: 0.25
   _moveSpeed: 1.5
   _moveDuration: 4
+  _scorePoints: 100
   _rotationSpeed: 100
+  _buff1Prefab: {fileID: 7317702618939439578, guid: f25fef387dfbae247813f5159d9c4d08, type: 3}
+  _buff2Prefab: {fileID: 6040874723535597199, guid: 569de9808c7434f40b0559579ffe1ef6, type: 3}
+  _buffSpawnChance: 0.25
 --- !u!1 &5602444209914466349
 GameObject:
   m_ObjectHideFlags: 0

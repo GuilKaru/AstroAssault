@@ -31,6 +31,16 @@ namespace AstroAssault
 		[Header("Points")]
 		[SerializeField]
 		private int _scorePoints = 100;
+
+		[Header("Buffs")]
+		[SerializeField]
+		private GameObject _buff1Prefab; // First buff prefab
+		[SerializeField]
+		private GameObject _buff2Prefab; // Second buff prefab
+		[SerializeField, Range(0f, 1f)]
+		private float _buffSpawnChance = 0.35f; // 35% chance
+
+
 		#endregion
 
 		// Private Variables
@@ -62,6 +72,7 @@ namespace AstroAssault
 
 		private void Update()
 		{
+			if (!GameManager.gameManager.gameStarted) return;
 			HandleShooting();
 			HandleMovement();
 		}
@@ -147,6 +158,9 @@ namespace AstroAssault
 					_scoreManager.AddScore(_scorePoints);
 				}
 
+				TrySpawnBuff();
+
+
 				// Destroy this enemy and the player's bullet
 				Destroy(collision.gameObject);
 				Destroy(gameObject);
@@ -162,6 +176,33 @@ namespace AstroAssault
 
 				// Destroy the drone
 				Destroy(gameObject);
+			}
+		}
+		#endregion
+
+		//Spawn Buff
+		#region Spawn Buff
+		private void TrySpawnBuff()
+		{
+			// Roll for spawn chance
+			if (Random.value <= _buffSpawnChance)
+			{
+				// Determine which buff to spawn
+				GameObject selectedBuff = Random.value < 0.5f ? _buff1Prefab : _buff2Prefab;
+
+				// Locate BuffParent
+				GameObject buffParent = GameObject.Find("BuffParent");
+				if (buffParent == null)
+				{
+					Debug.LogWarning("BuffParent not found! Buffs will spawn in the root of the hierarchy.");
+				}
+
+				// Spawn the buff at the drone's position, as a child of BuffParent
+				GameObject spawnedBuff = Instantiate(selectedBuff, transform.position, Quaternion.identity);
+				if (buffParent != null)
+				{
+					spawnedBuff.transform.SetParent(buffParent.transform);
+				}
 			}
 		}
 		#endregion

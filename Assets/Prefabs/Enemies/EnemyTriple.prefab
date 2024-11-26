@@ -179,6 +179,9 @@ MonoBehaviour:
   _moveSpeed: 5
   _destroyXPosition: -15
   _scorePoints: 100
+  _buff1Prefab: {fileID: 7317702618939439578, guid: f25fef387dfbae247813f5159d9c4d08, type: 3}
+  _buff2Prefab: {fileID: 6040874723535597199, guid: 569de9808c7434f40b0559579ffe1ef6, type: 3}
+  _buffSpawnChance: 0.35
 --- !u!1 &2651988765877948460
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,7 +194,7 @@ GameObject:
   - component: {fileID: 8236671666044351309}
   m_Layer: 0
   m_Name: EnemyTriple
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -230,6 +233,9 @@ MonoBehaviour:
   _moveSpeed: 5
   _destroyXPosition: -15
   _scorePoints: 100
+  _buff1Prefab: {fileID: 0}
+  _buff2Prefab: {fileID: 0}
+  _buffSpawnChance: 0.35
 --- !u!1 &6985342502876828151
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,6 +415,9 @@ MonoBehaviour:
   _moveSpeed: 5
   _destroyXPosition: -15
   _scorePoints: 100
+  _buff1Prefab: {fileID: 7317702618939439578, guid: f25fef387dfbae247813f5159d9c4d08, type: 3}
+  _buff2Prefab: {fileID: 6040874723535597199, guid: 569de9808c7434f40b0559579ffe1ef6, type: 3}
+  _buffSpawnChance: 0.35
 --- !u!1 &8934327732217240914
 GameObject:
   m_ObjectHideFlags: 0
@@ -588,3 +597,6 @@ MonoBehaviour:
   _moveSpeed: 5
   _destroyXPosition: -15
   _scorePoints: 100
+  _buff1Prefab: {fileID: 7317702618939439578, guid: f25fef387dfbae247813f5159d9c4d08, type: 3}
+  _buff2Prefab: {fileID: 6040874723535597199, guid: 569de9808c7434f40b0559579ffe1ef6, type: 3}
+  _buffSpawnChance: 0.35

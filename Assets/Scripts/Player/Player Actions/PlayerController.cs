@@ -28,6 +28,10 @@ namespace AstroAssault
 		[SerializeField]
 		private float _bulletHitMissDistance = 25f;
 
+		[Header("Shield Buff")]
+		[SerializeField]
+		private GameObject _playerShield;
+
 		[Header("Shotgun Settings")]
 		[SerializeField] private int _shotgunPelletCount = 3;
 		[SerializeField] private float[] _shotgunSpreadAngles = { -30f, 0f, 30f };
@@ -202,12 +206,21 @@ namespace AstroAssault
 			}
 		}
 
-		private void ChangeShootingMode(int mode)
+		public void ChangeShootingMode(int mode)
 		{
 			_currentShootMode = mode;
 			Debug.Log($"Shooting mode changed to: {(_currentShootMode == 1 ? "Automatic" : "Shotgun")}");
 		}
-        #endregion
+		#endregion
+
+		//Shield
+		#region Shield
+		public void ActivateShield(bool isActive)
+		{
+			// Toggle the shield's active state (e.g., enable or disable the shield visual/collider)
+			_playerShield.SetActive(isActive);  // Assuming you have a shield object or visual
+		}
+		#endregion
 
 		//Collision
 		#region Collision
@@ -221,7 +234,6 @@ namespace AstroAssault
 
 		}
 		#endregion
-
 
 		//Player Animations
 		#region Player Animations

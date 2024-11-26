@@ -99,6 +99,16 @@ namespace AstroAssault
 			Debug.Log("Drills unlocked!");
 		}
 		#endregion
+
+		//Difficulty Reset
+		#region Difficulty Reset
+		public void ResetDifficulty()
+		{
+			_currentLevel = 0;
+			drillsUnlocked = false;
+			SetSpawners(); // Reset spawners to initial state
+		}
+		#endregion
 	}
 }
 

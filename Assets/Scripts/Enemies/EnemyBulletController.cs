@@ -28,6 +28,7 @@ namespace AstroAssault
 
 		private void Update()
 		{
+			if (!GameManager.gameManager.gameStarted) return;
 			HandleLifetime();
 			MoveBullet();
 		}
@@ -63,8 +64,11 @@ namespace AstroAssault
 
 				Destroy(gameObject); // Destroy the bullet
 			}
-		
+
+
 		}
+
+
 
 		#endregion
 
