@@ -11,6 +11,7 @@ namespace AstroAssault
 		private float _lifetime = 5f; // Bullet lifetime before auto-destruction
 		[SerializeField]
 		private float _speed = 10f;
+
 		#endregion
 
 		//Private Variables
@@ -84,6 +85,7 @@ namespace AstroAssault
 			}
 		}
 		#endregion
+
 	}
 }
 

@@ -18,6 +18,10 @@ namespace AstroAssault
 		[SerializeField]
 		private int _scorePoints = 100;
 
+		[Header("Animation")]
+		[SerializeField]
+		private Animator _animator;
+
 		[Header("Buffs")]
 		[SerializeField]
 		private GameObject _buff1Prefab; // First buff prefab
@@ -33,7 +37,10 @@ namespace AstroAssault
 		private ScoreManager _scoreManager;
 		private PlayerHealth _playerHealth;
 		private Vector3 _movementDirection;
-		
+
+		//Animations
+		private string _currentState;
+		private string _idleAnim = "Enemy_Idle";
 		#endregion
 
 		//Initialization
@@ -143,6 +150,23 @@ namespace AstroAssault
 					spawnedBuff.transform.SetParent(buffParent.transform);
 				}
 			}
+		}
+		#endregion
+
+		//Animation
+		#region Animation
+
+		private void ChangeAnimationState(string newState)
+		{
+			// Avoid transitioning to the same animation
+			if (_currentState == newState) return;
+
+			// Play the new animation
+			_animator.Play(newState);
+
+			// Update the current state
+			_currentState = newState;
+
 		}
 		#endregion
 	}

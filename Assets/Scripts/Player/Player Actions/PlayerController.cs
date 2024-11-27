@@ -52,6 +52,7 @@ namespace AstroAssault
 		private int _currentShootMode = 1; // 1: Automatic, 2: Shotgun
 		private Coroutine _shootingCoroutine;
 		private bool _wasMoving = false;
+		private bool _isShooting;
 		#endregion
 
 		//References
@@ -61,6 +62,10 @@ namespace AstroAssault
 		private string _currentState;
 		private string _idleAnim = "Player_Idle";
 		private string _walkingAnim = "Player_Walk";
+		private string _shootStartAnim = "Player_Shoot_Start";
+		private string _shootingAnim = "Player_Shoot_Loop";
+		private string _shootEndAnim = "Player_Shoot_End";
+
 		#endregion
 
 		// Initialization
@@ -150,7 +155,10 @@ namespace AstroAssault
 
             if (_shootingCoroutine == null)
 			{
+				ChangeAnimationState(_shootStartAnim);
+				_isShooting = true;
 				_shootingCoroutine = StartCoroutine(ShootingCoroutine());
+
 			}
 		}
 
@@ -161,15 +169,18 @@ namespace AstroAssault
 				StopCoroutine(_shootingCoroutine);
 				_shootingCoroutine = null;
 			}
+
+			ChangeAnimationState(_shootEndAnim);
 		}
 
 		private IEnumerator ShootingCoroutine()
 		{
-			while (true)
+			while (_isShooting)
 			{
 				if (_currentShootMode == 1)
 				{
 					AutomaticShoot();
+					
 				}
 				else if (_currentShootMode == 2)
 				{
@@ -252,22 +263,19 @@ namespace AstroAssault
 
 		private void UpdateAnimationState()
 		{
+			if (_isShooting) return; // Shooting animations take priority
+
 			bool isCurrentlyMoving = _moveInput != Vector2.zero;
 
 			if (isCurrentlyMoving)
 			{
-				// If moving, play the walking animation
-				ChangeAnimationState(_walkingAnim);
-				_wasMoving = true;
+				ChangeAnimationState(_walkingAnim); // Walk if moving
+				//_wasMoving = true;
 			}
 			else
 			{
-				if (_wasMoving)
-				{
-					// If the player just stopped movin
-					_wasMoving = false;
-					ChangeAnimationState(_idleAnim);
-				}
+				ChangeAnimationState(_idleAnim); // Idle if stationary
+				//_wasMoving = false;
 			}
 		}
 

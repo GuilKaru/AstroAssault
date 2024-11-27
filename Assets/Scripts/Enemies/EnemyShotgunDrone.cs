@@ -32,6 +32,10 @@ namespace AstroAssault
 		[SerializeField]
 		private int _scorePoints = 100;
 
+		[Header("Animation")]
+		[SerializeField]
+		private Animator _animator;
+
 		[Header("Buffs")]
 		[SerializeField]
 		private GameObject _buff1Prefab; // First buff prefab
@@ -51,6 +55,10 @@ namespace AstroAssault
 		private float _timeCounter; // Time counter for sine wave movement
 		private ScoreManager _scoreManager; // Reference to ScoreManager
 		private PlayerHealth _playerHealth; // Reference to PlayerHealth
+
+		//Animations
+		private string _currentState;
+		private string _idleAnim = "Enemy_Idle";
 		#endregion
 
 		// Initialization
@@ -63,6 +71,7 @@ namespace AstroAssault
 			// Locate BulletParent, ScoreManager, and PlayerHealth
 			FindBulletParent();
 			_scoreManager = FindObjectOfType<ScoreManager>();
+			_animator = GetComponent<Animator>();
 			GameObject player = GameObject.FindGameObjectWithTag("Player");
 			if (player != null)
 			{
@@ -127,6 +136,7 @@ namespace AstroAssault
 		#region Drone Movement
 		private void HandleMovement()
 		{
+			ChangeAnimationState(_idleAnim);
 			// Calculate vertical sine wave movement
 			_timeCounter += Time.deltaTime * _verticalSpeed;
 			float verticalOffset = Mathf.Sin(_timeCounter) * _verticalAmplitude;
@@ -204,6 +214,23 @@ namespace AstroAssault
 					spawnedBuff.transform.SetParent(buffParent.transform);
 				}
 			}
+		}
+		#endregion
+
+		//Animation
+		#region Animation
+
+		private void ChangeAnimationState(string newState)
+		{
+			// Avoid transitioning to the same animation
+			if (_currentState == newState) return;
+
+			// Play the new animation
+			_animator.Play(newState);
+
+			// Update the current state
+			_currentState = newState;
+
 		}
 		#endregion
 

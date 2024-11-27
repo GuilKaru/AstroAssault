@@ -20,6 +20,10 @@ namespace AstroAssault
 		[SerializeField]
 		private int _scorePoints = 100;
 
+		[Header("Animation")]
+		[SerializeField]
+		private Animator _animator;
+
 		[Header("Buffs")]
 		[SerializeField]
 		private GameObject _buff1Prefab; // First buff prefab
@@ -39,6 +43,10 @@ namespace AstroAssault
 
 		private ScoreManager _scoreManager;
 		private PlayerHealth _playerHealth;
+
+		//Animations
+		private string _currentState;
+		private string _idleAnim = "EnemyDrill_Idle";
 		#endregion
 
 		//Initialization
@@ -50,6 +58,8 @@ namespace AstroAssault
 
 			// Locate the ScoreManager in the scene
 			_scoreManager = FindObjectOfType<ScoreManager>();
+
+			_animator = GetComponent<Animator>();
 
 			GameObject player = GameObject.FindGameObjectWithTag("Player");
 			if (player != null)
@@ -64,6 +74,7 @@ namespace AstroAssault
 			if (!GameManager.gameManager.gameStarted) return;
 			if (_isFastDescent)
 			{
+				ChangeAnimationState(_idleAnim);
 				PerformFastDescent();
 			}
 			else if (_isWaiting)
@@ -167,6 +178,23 @@ namespace AstroAssault
 					spawnedBuff.transform.SetParent(buffParent.transform);
 				}
 			}
+		}
+		#endregion
+
+		//Animation
+		#region Animation
+
+		private void ChangeAnimationState(string newState)
+		{
+			// Avoid transitioning to the same animation
+			if (_currentState == newState) return;
+
+			// Play the new animation
+			_animator.Play(newState);
+
+			// Update the current state
+			_currentState = newState;
+
 		}
 		#endregion
 	}

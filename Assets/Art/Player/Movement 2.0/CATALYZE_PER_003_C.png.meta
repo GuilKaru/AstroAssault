@@ -155,28 +155,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CATALYZE_PER_003_C_0
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 69
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f7fc7151f0f7f7060800000000000000
-      internalID: 6953416052438454143
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: CATALYZE_PER_003_C_1
       rect:
         serializedVersion: 2
@@ -185,7 +163,7 @@ TextureImporter:
         width: 647
         height: 799
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -202,7 +180,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4af3d869b5b201d4387548774ea79637
     internalID: 0
     vertices: []
     indices: 
@@ -211,7 +189,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CATALYZE_PER_003_C_0: 6953416052438454143
+      CATALYZE_PER_003_C_1: -3441860131159370979
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

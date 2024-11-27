@@ -113,6 +113,7 @@ namespace AstroAssault
 			// Clear all enemies from the scene
 			ClearEnemies();
             ClearBuffs();
+            ClearBullets();
 
 			_gameOverMenuUI.SetActive(false);
 
@@ -139,6 +140,19 @@ namespace AstroAssault
 		{
 			// Assuming the parent GameObject for enemies is called "EnemyParent"
 			GameObject enemyParent = GameObject.Find("BuffParent");
+			if (enemyParent != null)
+			{
+				foreach (Transform child in enemyParent.transform)
+				{
+					Destroy(child.gameObject); // Destroy each child (enemy)
+				}
+			}
+		}
+
+		public void ClearBullets()
+		{
+			// Assuming the parent GameObject for enemies is called "EnemyParent"
+			GameObject enemyParent = GameObject.Find("BulletParent");
 			if (enemyParent != null)
 			{
 				foreach (Transform child in enemyParent.transform)

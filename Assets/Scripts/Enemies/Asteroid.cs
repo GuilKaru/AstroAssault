@@ -9,6 +9,8 @@ namespace AstroAssault
 		[SerializeField]
 		private float _moveSpeed = 3f;  // Speed of horizontal movement
 		[SerializeField]
+		private float _rotationSpeed = 50f;
+		[SerializeField]
 		private int _scoreValue = 50;  // Score given on destruction
 		[SerializeField]
 		private GameObject _smallerAsteroidPrefab;
@@ -55,6 +57,25 @@ namespace AstroAssault
 			if (!GameManager.gameManager.gameStarted) return;
 			// Move the asteroid to the left
 			transform.position += Vector3.left * _moveSpeed * Time.deltaTime;
+
+			// Rotate the asteroid around the Z-axis
+			transform.Rotate(0, 0, _rotationSpeed * Time.deltaTime);
+
+
+			if (transform.position.x > 20f)  // Destroy when x is less than -10
+			{
+				Destroy(gameObject);
+			}
+
+			if (transform.position.y > 20f)  // Destroy when x is less than -10
+			{
+				Destroy(gameObject);
+			}
+
+			if (transform.position.y < -15f)  // Destroy when x is less than -10
+			{
+				Destroy(gameObject);
+			}
 
 			if (transform.position.x < -15f)  // Destroy when x is less than -10
 			{

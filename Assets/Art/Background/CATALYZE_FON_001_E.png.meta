@@ -186,7 +186,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CATALYZE_FON_001_E_0: 7588046310258908716
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
