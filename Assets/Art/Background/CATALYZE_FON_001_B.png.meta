@@ -1,0 +1,5169 @@
+fileFormatVersion: 2
+guid: 5cd33ebadf5f1794c81d3da9a85ca5f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8092364455598798948
+    second: CATALYZE_FON_001_B_0
+  - first:
+      213: 8349088907282188375
+    second: CATALYZE_FON_001_B_1
+  - first:
+      213: 2928617802114105876
+    second: CATALYZE_FON_001_B_2
+  - first:
+      213: 3686515362235587323
+    second: CATALYZE_FON_001_B_3
+  - first:
+      213: -4614543822529631480
+    second: CATALYZE_FON_001_B_4
+  - first:
+      213: 286091661181606565
+    second: CATALYZE_FON_001_B_5
+  - first:
+      213: -3722766742626730289
+    second: CATALYZE_FON_001_B_6
+  - first:
+      213: 1289980809470885882
+    second: CATALYZE_FON_001_B_7
+  - first:
+      213: -2550840627570305400
+    second: CATALYZE_FON_001_B_8
+  - first:
+      213: 160490126553046414
+    second: CATALYZE_FON_001_B_9
+  - first:
+      213: 7078091154306985022
+    second: CATALYZE_FON_001_B_10
+  - first:
+      213: 7327742114968469147
+    second: CATALYZE_FON_001_B_11
+  - first:
+      213: 3145471341036908236
+    second: CATALYZE_FON_001_B_12
+  - first:
+      213: 5530657200324699675
+    second: CATALYZE_FON_001_B_13
+  - first:
+      213: -4985794638326083110
+    second: CATALYZE_FON_001_B_14
+  - first:
+      213: 2773236452031138797
+    second: CATALYZE_FON_001_B_15
+  - first:
+      213: -199735088043868522
+    second: CATALYZE_FON_001_B_16
+  - first:
+      213: -4370931618954137451
+    second: CATALYZE_FON_001_B_17
+  - first:
+      213: -8594989114939659455
+    second: CATALYZE_FON_001_B_18
+  - first:
+      213: -7188201833340358979
+    second: CATALYZE_FON_001_B_19
+  - first:
+      213: -4629548553274915688
+    second: CATALYZE_FON_001_B_20
+  - first:
+      213: 4542960273872653431
+    second: CATALYZE_FON_001_B_21
+  - first:
+      213: 3231217850236718512
+    second: CATALYZE_FON_001_B_22
+  - first:
+      213: -9040057946484229120
+    second: CATALYZE_FON_001_B_23
+  - first:
+      213: 386957256794662036
+    second: CATALYZE_FON_001_B_24
+  - first:
+      213: 3022545624030248066
+    second: CATALYZE_FON_001_B_25
+  - first:
+      213: 2468974732661321830
+    second: CATALYZE_FON_001_B_26
+  - first:
+      213: -1394960191528279491
+    second: CATALYZE_FON_001_B_27
+  - first:
+      213: -7314823117970790645
+    second: CATALYZE_FON_001_B_28
+  - first:
+      213: 8267030329542386950
+    second: CATALYZE_FON_001_B_29
+  - first:
+      213: 3919989400690256192
+    second: CATALYZE_FON_001_B_30
+  - first:
+      213: 3113727477050684731
+    second: CATALYZE_FON_001_B_31
+  - first:
+      213: 8480515554679486870
+    second: CATALYZE_FON_001_B_32
+  - first:
+      213: -743076900462155737
+    second: CATALYZE_FON_001_B_33
+  - first:
+      213: 3915478449824586565
+    second: CATALYZE_FON_001_B_34
+  - first:
+      213: 3566719439542123065
+    second: CATALYZE_FON_001_B_35
+  - first:
+      213: 8633592867172363712
+    second: CATALYZE_FON_001_B_36
+  - first:
+      213: -3817804147791103219
+    second: CATALYZE_FON_001_B_37
+  - first:
+      213: -6286809947835800226
+    second: CATALYZE_FON_001_B_38
+  - first:
+      213: 1562053418794503096
+    second: CATALYZE_FON_001_B_39
+  - first:
+      213: 5148180037355173834
+    second: CATALYZE_FON_001_B_40
+  - first:
+      213: -5760345571724077836
+    second: CATALYZE_FON_001_B_41
+  - first:
+      213: 5773414492191751321
+    second: CATALYZE_FON_001_B_42
+  - first:
+      213: -7641653417845722028
+    second: CATALYZE_FON_001_B_43
+  - first:
+      213: 5037355925664710070
+    second: CATALYZE_FON_001_B_44
+  - first:
+      213: -7994894029668573272
+    second: CATALYZE_FON_001_B_45
+  - first:
+      213: -9089116594259068206
+    second: CATALYZE_FON_001_B_46
+  - first:
+      213: -7904408816673681263
+    second: CATALYZE_FON_001_B_47
+  - first:
+      213: 3627489821421911357
+    second: CATALYZE_FON_001_B_48
+  - first:
+      213: -334522983799458523
+    second: CATALYZE_FON_001_B_49
+  - first:
+      213: -2264042181137264721
+    second: CATALYZE_FON_001_B_50
+  - first:
+      213: -3915237419283706022
+    second: CATALYZE_FON_001_B_51
+  - first:
+      213: 1066456157700387564
+    second: CATALYZE_FON_001_B_52
+  - first:
+      213: -26816623493930110
+    second: CATALYZE_FON_001_B_53
+  - first:
+      213: -5473670536299345548
+    second: CATALYZE_FON_001_B_54
+  - first:
+      213: 560742046214485100
+    second: CATALYZE_FON_001_B_55
+  - first:
+      213: -5317678170418383107
+    second: CATALYZE_FON_001_B_56
+  - first:
+      213: 8734161499380034991
+    second: CATALYZE_FON_001_B_57
+  - first:
+      213: -2348950008785351093
+    second: CATALYZE_FON_001_B_58
+  - first:
+      213: -2350506465821497793
+    second: CATALYZE_FON_001_B_59
+  - first:
+      213: 6085685920667671646
+    second: CATALYZE_FON_001_B_60
+  - first:
+      213: -5538316235868957671
+    second: CATALYZE_FON_001_B_61
+  - first:
+      213: 2358252551200833207
+    second: CATALYZE_FON_001_B_62
+  - first:
+      213: 7139355088811353214
+    second: CATALYZE_FON_001_B_63
+  - first:
+      213: 5048226566915137144
+    second: CATALYZE_FON_001_B_64
+  - first:
+      213: 3270235738274482166
+    second: CATALYZE_FON_001_B_65
+  - first:
+      213: 3338242767171204420
+    second: CATALYZE_FON_001_B_66
+  - first:
+      213: 6327102559012405633
+    second: CATALYZE_FON_001_B_67
+  - first:
+      213: -5883488612433094150
+    second: CATALYZE_FON_001_B_68
+  - first:
+      213: -1883566356557480117
+    second: CATALYZE_FON_001_B_69
+  - first:
+      213: -693512407096703627
+    second: CATALYZE_FON_001_B_70
+  - first:
+      213: 8910134699434679276
+    second: CATALYZE_FON_001_B_71
+  - first:
+      213: 7382176536566281337
+    second: CATALYZE_FON_001_B_72
+  - first:
+      213: 3984055412988042820
+    second: CATALYZE_FON_001_B_73
+  - first:
+      213: 8938532740983300095
+    second: CATALYZE_FON_001_B_74
+  - first:
+      213: -6035813890698579287
+    second: CATALYZE_FON_001_B_75
+  - first:
+      213: -4824818894017549155
+    second: CATALYZE_FON_001_B_76
+  - first:
+      213: -5173585010053430052
+    second: CATALYZE_FON_001_B_77
+  - first:
+      213: 2236384862064005740
+    second: CATALYZE_FON_001_B_78
+  - first:
+      213: -904012743363057966
+    second: CATALYZE_FON_001_B_79
+  - first:
+      213: -2571048489931109669
+    second: CATALYZE_FON_001_B_80
+  - first:
+      213: 3925999141474225779
+    second: CATALYZE_FON_001_B_81
+  - first:
+      213: -7244885792008953038
+    second: CATALYZE_FON_001_B_82
+  - first:
+      213: -4104800719773853568
+    second: CATALYZE_FON_001_B_83
+  - first:
+      213: 9029411346724979544
+    second: CATALYZE_FON_001_B_84
+  - first:
+      213: 3979418607991299752
+    second: CATALYZE_FON_001_B_85
+  - first:
+      213: 3283232989959267392
+    second: CATALYZE_FON_001_B_86
+  - first:
+      213: 7973865689468674938
+    second: CATALYZE_FON_001_B_87
+  - first:
+      213: 347659485604015312
+    second: CATALYZE_FON_001_B_88
+  - first:
+      213: 342173686449898987
+    second: CATALYZE_FON_001_B_89
+  - first:
+      213: 3838747467511295953
+    second: CATALYZE_FON_001_B_90
+  - first:
+      213: 5470578506114979332
+    second: CATALYZE_FON_001_B_91
+  - first:
+      213: 8984022347394658481
+    second: CATALYZE_FON_001_B_92
+  - first:
+      213: -6625201383491838483
+    second: CATALYZE_FON_001_B_93
+  - first:
+      213: -8064388604384835403
+    second: CATALYZE_FON_001_B_94
+  - first:
+      213: 6165155457887233818
+    second: CATALYZE_FON_001_B_95
+  - first:
+      213: 2907604508343071020
+    second: CATALYZE_FON_001_B_96
+  - first:
+      213: -4989644782884071527
+    second: CATALYZE_FON_001_B_97
+  - first:
+      213: -8339509873197326012
+    second: CATALYZE_FON_001_B_98
+  - first:
+      213: -5115759341734283983
+    second: CATALYZE_FON_001_B_99
+  - first:
+      213: -2789109783040352703
+    second: CATALYZE_FON_001_B_100
+  - first:
+      213: 2556080110032658833
+    second: CATALYZE_FON_001_B_101
+  - first:
+      213: -5016098661932025094
+    second: CATALYZE_FON_001_B_102
+  - first:
+      213: -7385040126903903973
+    second: CATALYZE_FON_001_B_103
+  - first:
+      213: -4668499541722650346
+    second: CATALYZE_FON_001_B_104
+  - first:
+      213: -2135710475716054285
+    second: CATALYZE_FON_001_B_105
+  - first:
+      213: 7691761465952163404
+    second: CATALYZE_FON_001_B_106
+  - first:
+      213: 6618424151754415498
+    second: CATALYZE_FON_001_B_107
+  - first:
+      213: -7296964608414326341
+    second: CATALYZE_FON_001_B_108
+  - first:
+      213: 28369341231218139
+    second: CATALYZE_FON_001_B_109
+  - first:
+      213: 5791893613831715798
+    second: CATALYZE_FON_001_B_110
+  - first:
+      213: -5527064582516585597
+    second: CATALYZE_FON_001_B_111
+  - first:
+      213: -5875869282770506541
+    second: CATALYZE_FON_001_B_112
+  - first:
+      213: -8000046978858883991
+    second: CATALYZE_FON_001_B_113
+  - first:
+      213: -3812711118909106126
+    second: CATALYZE_FON_001_B_114
+  - first:
+      213: 6757147102829350407
+    second: CATALYZE_FON_001_B_115
+  - first:
+      213: 4798051955580521612
+    second: CATALYZE_FON_001_B_116
+  - first:
+      213: -3960090259621599440
+    second: CATALYZE_FON_001_B_117
+  - first:
+      213: 3257331246225303505
+    second: CATALYZE_FON_001_B_118
+  - first:
+      213: 5512244132761237473
+    second: CATALYZE_FON_001_B_119
+  - first:
+      213: -3354110037270795656
+    second: CATALYZE_FON_001_B_120
+  - first:
+      213: 5796362838853294590
+    second: CATALYZE_FON_001_B_121
+  - first:
+      213: 8309017017882726263
+    second: CATALYZE_FON_001_B_122
+  - first:
+      213: 7894143266885046630
+    second: CATALYZE_FON_001_B_123
+  - first:
+      213: -1430698278522149827
+    second: CATALYZE_FON_001_B_124
+  - first:
+      213: 7541318744246911713
+    second: CATALYZE_FON_001_B_125
+  - first:
+      213: 3605576551607513700
+    second: CATALYZE_FON_001_B_126
+  - first:
+      213: 4074141511678828099
+    second: CATALYZE_FON_001_B_127
+  - first:
+      213: 2567927152348709109
+    second: CATALYZE_FON_001_B_128
+  - first:
+      213: -1942708249081914609
+    second: CATALYZE_FON_001_B_129
+  - first:
+      213: -1513742546897311461
+    second: CATALYZE_FON_001_B_130
+  - first:
+      213: -785238062640495830
+    second: CATALYZE_FON_001_B_131
+  - first:
+      213: -2830318090203613974
+    second: CATALYZE_FON_001_B_132
+  - first:
+      213: 4921583600030034057
+    second: CATALYZE_FON_001_B_133
+  - first:
+      213: -8298571383803766736
+    second: CATALYZE_FON_001_B_134
+  - first:
+      213: 5955266849638472139
+    second: CATALYZE_FON_001_B_135
+  - first:
+      213: -22147090404624496
+    second: CATALYZE_FON_001_B_136
+  - first:
+      213: 8502912268280198631
+    second: CATALYZE_FON_001_B_137
+  - first:
+      213: -4538945848261405344
+    second: CATALYZE_FON_001_B_138
+  - first:
+      213: 313517826833424973
+    second: CATALYZE_FON_001_B_139
+  - first:
+      213: 5598818596936991754
+    second: CATALYZE_FON_001_B_140
+  - first:
+      213: 4408140089127160587
+    second: CATALYZE_FON_001_B_141
+  - first:
+      213: -5730024770244880064
+    second: CATALYZE_FON_001_B_142
+  - first:
+      213: 1794181866253750477
+    second: CATALYZE_FON_001_B_143
+  - first:
+      213: 5766916740488822231
+    second: CATALYZE_FON_001_B_144
+  - first:
+      213: 1761008416344513747
+    second: CATALYZE_FON_001_B_145
+  - first:
+      213: 4080302277177979323
+    second: CATALYZE_FON_001_B_146
+  - first:
+      213: -7740467736952397662
+    second: CATALYZE_FON_001_B_147
+  - first:
+      213: 426004627418999496
+    second: CATALYZE_FON_001_B_148
+  - first:
+      213: 3948351355882888991
+    second: CATALYZE_FON_001_B_149
+  - first:
+      213: 5043794573489985688
+    second: CATALYZE_FON_001_B_150
+  - first:
+      213: -3362027534117548803
+    second: CATALYZE_FON_001_B_151
+  - first:
+      213: 320614511426111206
+    second: CATALYZE_FON_001_B_152
+  - first:
+      213: 4481746034421975961
+    second: CATALYZE_FON_001_B_153
+  - first:
+      213: -4401846733813839830
+    second: CATALYZE_FON_001_B_154
+  - first:
+      213: -6583919784540819011
+    second: CATALYZE_FON_001_B_155
+  - first:
+      213: -3497355393592144192
+    second: CATALYZE_FON_001_B_156
+  - first:
+      213: -6876713661055939380
+    second: CATALYZE_FON_001_B_157
+  - first:
+      213: 3983792533105487359
+    second: CATALYZE_FON_001_B_158
+  - first:
+      213: -8969621937055565152
+    second: CATALYZE_FON_001_B_159
+  - first:
+      213: -5206589897209310154
+    second: CATALYZE_FON_001_B_160
+  - first:
+      213: -6677515910930085404
+    second: CATALYZE_FON_001_B_161
+  - first:
+      213: -5865160660471870766
+    second: CATALYZE_FON_001_B_162
+  - first:
+      213: 4310286175221322239
+    second: CATALYZE_FON_001_B_163
+  - first:
+      213: 8782527364860603369
+    second: CATALYZE_FON_001_B_164
+  - first:
+      213: 8574473243583112468
+    second: CATALYZE_FON_001_B_165
+  - first:
+      213: 7490452201084737850
+    second: CATALYZE_FON_001_B_166
+  - first:
+      213: -5978836210266515904
+    second: CATALYZE_FON_001_B_167
+  - first:
+      213: 4097167901370953688
+    second: CATALYZE_FON_001_B_168
+  - first:
+      213: 6584380975911678636
+    second: CATALYZE_FON_001_B_169
+  - first:
+      213: -8030074500044408864
+    second: CATALYZE_FON_001_B_170
+  - first:
+      213: 697235500425073400
+    second: CATALYZE_FON_001_B_171
+  - first:
+      213: 1148214098564276284
+    second: CATALYZE_FON_001_B_172
+  - first:
+      213: 4767002088832349618
+    second: CATALYZE_FON_001_B_173
+  - first:
+      213: -9135015438635268431
+    second: CATALYZE_FON_001_B_174
+  - first:
+      213: -4052456369524509431
+    second: CATALYZE_FON_001_B_175
+  - first:
+      213: 4360137090126219013
+    second: CATALYZE_FON_001_B_176
+  - first:
+      213: 5894139756019814554
+    second: CATALYZE_FON_001_B_177
+  - first:
+      213: -4300580174530545678
+    second: CATALYZE_FON_001_B_178
+  - first:
+      213: -3888937225662972628
+    second: CATALYZE_FON_001_B_179
+  - first:
+      213: 7122048156390411067
+    second: CATALYZE_FON_001_B_180
+  - first:
+      213: 7838873255768246606
+    second: CATALYZE_FON_001_B_181
+  - first:
+      213: -6340886951406399393
+    second: CATALYZE_FON_001_B_182
+  - first:
+      213: 5950512436605533305
+    second: CATALYZE_FON_001_B_183
+  - first:
+      213: 8511676328970717142
+    second: CATALYZE_FON_001_B_184
+  - first:
+      213: 7520841399932898502
+    second: CATALYZE_FON_001_B_185
+  - first:
+      213: -7716748564022847028
+    second: CATALYZE_FON_001_B_186
+  - first:
+      213: 4628168271391411841
+    second: CATALYZE_FON_001_B_187
+  - first:
+      213: 3218437942176518911
+    second: CATALYZE_FON_001_B_188
+  - first:
+      213: -8646590769406830267
+    second: CATALYZE_FON_001_B_189
+  - first:
+      213: -4894805548318096118
+    second: CATALYZE_FON_001_B_190
+  - first:
+      213: -8505183356821363706
+    second: CATALYZE_FON_001_B_191
+  - first:
+      213: -6162602592554114804
+    second: CATALYZE_FON_001_B_192
+  - first:
+      213: 6252884176219985528
+    second: CATALYZE_FON_001_B_193
+  - first:
+      213: -2021515407576493643
+    second: CATALYZE_FON_001_B_194
+  - first:
+      213: -2047703023167565373
+    second: CATALYZE_FON_001_B_195
+  - first:
+      213: -3860981795602827783
+    second: CATALYZE_FON_001_B_196
+  - first:
+      213: -2879710401571242869
+    second: CATALYZE_FON_001_B_197
+  - first:
+      213: -3961639382459469290
+    second: CATALYZE_FON_001_B_198
+  - first:
+      213: -9015478002470205107
+    second: CATALYZE_FON_001_B_199
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_0
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1053
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468b6f0e89add4070800000000000000
+      internalID: 8092364455598798948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_1
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 1028
+        width: 62
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75885b4302cedd370800000000000000
+      internalID: 8349088907282188375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_2
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1043
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41285e1ef5a84a820800000000000000
+      internalID: 2928617802114105876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_3
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1023
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa9211a032292330800000000000000
+      internalID: 3686515362235587323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_4
+      rect:
+        serializedVersion: 2
+        x: 2435
+        y: 1058
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80be5a1a7d8d5ffb0800000000000000
+      internalID: -4614543822529631480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_5
+      rect:
+        serializedVersion: 2
+        x: 2729
+        y: 1048
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa5eed99d668f300800000000000000
+      internalID: 286091661181606565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_6
+      rect:
+        serializedVersion: 2
+        x: 3423
+        y: 1053
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce78142f53165cc0800000000000000
+      internalID: -3722766742626730289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_7
+      rect:
+        serializedVersion: 2
+        x: 3713
+        y: 1058
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff359b26bee6e110800000000000000
+      internalID: 1289980809470885882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_8
+      rect:
+        serializedVersion: 2
+        x: 3788
+        y: 1048
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8869903d6f7999cd0800000000000000
+      internalID: -2550840627570305400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_9
+      rect:
+        serializedVersion: 2
+        x: 4222
+        y: 1028
+        width: 62
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8dd6277bec2a3200800000000000000
+      internalID: 160490126553046414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_10
+      rect:
+        serializedVersion: 2
+        x: 4527
+        y: 1043
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c6d4c476e6a3260800000000000000
+      internalID: 7078091154306985022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_11
+      rect:
+        serializedVersion: 2
+        x: 4717
+        y: 1023
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e7d5821ae51b560800000000000000
+      internalID: 7327742114968469147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_12
+      rect:
+        serializedVersion: 2
+        x: 5261
+        y: 1058
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce2dade485f6ab20800000000000000
+      internalID: 3145471341036908236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_13
+      rect:
+        serializedVersion: 2
+        x: 5555
+        y: 1048
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b166fc7cb67d0cc40800000000000000
+      internalID: 5530657200324699675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_14
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1023
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1d68b3136eecab0800000000000000
+      internalID: -4985794638326083110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_15
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 1033
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb0b712cd38c7620800000000000000
+      internalID: 2773236452031138797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_16
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 1033
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69eb6f3eef56a3df0800000000000000
+      internalID: -199735088043868522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_17
+      rect:
+        serializedVersion: 2
+        x: 3094
+        y: 1038
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59037bac9d45753c0800000000000000
+      internalID: -4370931618954137451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_18
+      rect:
+        serializedVersion: 2
+        x: 3378
+        y: 1018
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b2cab20f678b880800000000000000
+      internalID: -8594989114939659455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_19
+      rect:
+        serializedVersion: 2
+        x: 4362
+        y: 1023
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbeafed64806e3c90800000000000000
+      internalID: -7188201833340358979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_20
+      rect:
+        serializedVersion: 2
+        x: 5036
+        y: 1033
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89400a38e1a80cfb0800000000000000
+      internalID: -4629548553274915688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_21
+      rect:
+        serializedVersion: 2
+        x: 5436
+        y: 1033
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c04e8ac46db0f30800000000000000
+      internalID: 4542960273872653431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_22
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1003
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bdc24bd38797dc20800000000000000
+      internalID: 3231217850236718512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_23
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 1013
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c3cd6a1334b8280800000000000000
+      internalID: -9040057946484229120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_24
+      rect:
+        serializedVersion: 2
+        x: 2909
+        y: 1003
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494618a239fbe5500800000000000000
+      internalID: 386957256794662036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_25
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 1008
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28cfbbd1b3d32f920800000000000000
+      internalID: 3022545624030248066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_26
+      rect:
+        serializedVersion: 2
+        x: 3358
+        y: 998
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66071bb207f834220800000000000000
+      internalID: 2468974732661321830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_27
+      rect:
+        serializedVersion: 2
+        x: 3408
+        y: 993
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32652cb81b14ace0800000000000000
+      internalID: -1394960191528279491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_28
+      rect:
+        serializedVersion: 2
+        x: 4996
+        y: 1013
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07298a31278c7a90800000000000000
+      internalID: -7314823117970790645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_29
+      rect:
+        serializedVersion: 2
+        x: 3468
+        y: 988
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60521cbb8446ab270800000000000000
+      internalID: 8267030329542386950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_30
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 899
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04960774799966630800000000000000
+      internalID: 3919989400690256192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_31
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 958
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35baf4a4ae263b20800000000000000
+      internalID: 3113727477050684731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_32
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 899
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69978dc17f7d0b570800000000000000
+      internalID: 8480515554679486870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_33
+      rect:
+        serializedVersion: 2
+        x: 4447
+        y: 958
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728a72bfe7f00b5f0800000000000000
+      internalID: -743076900462155737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_34
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 938
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54bdd7fa7e2965630800000000000000
+      internalID: 3915478449824586565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_35
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 928
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a7367de688f7130800000000000000
+      internalID: 3566719439542123065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_36
+      rect:
+        serializedVersion: 2
+        x: 4472
+        y: 938
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cda72f48fea0d770800000000000000
+      internalID: 8633592867172363712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_37
+      rect:
+        serializedVersion: 2
+        x: 5166
+        y: 928
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0bf5ecea5f640bc0800000000000000
+      internalID: -3817804147791103219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_38
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 909
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55ead059a3c0c8a0800000000000000
+      internalID: -6286809947835800226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_39
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 899
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb4e6bee478da510800000000000000
+      internalID: 1562053418794503096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_40
+      rect:
+        serializedVersion: 2
+        x: 2744
+        y: 909
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7ff4eb772027740800000000000000
+      internalID: 5148180037355173834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_41
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 918
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f454edd8342f00b0800000000000000
+      internalID: -5760345571724077836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_42
+      rect:
+        serializedVersion: 2
+        x: 4417
+        y: 909
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c7e2c44e94f1050800000000000000
+      internalID: 5773414492191751321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_43
+      rect:
+        serializedVersion: 2
+        x: 5366
+        y: 899
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454f7a424b463f590800000000000000
+      internalID: -7641653417845722028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_44
+      rect:
+        serializedVersion: 2
+        x: 5570
+        y: 909
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd347c768848e540800000000000000
+      internalID: 5037355925664710070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_45
+      rect:
+        serializedVersion: 2
+        x: 5605
+        y: 918
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af96b02d3e6c0190800000000000000
+      internalID: -7994894029668573272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_46
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 869
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da741d1d98fcd180800000000000000
+      internalID: -9089116594259068206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_47
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 889
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19013b28f06ed4290800000000000000
+      internalID: -7904408816673681263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_48
+      rect:
+        serializedVersion: 2
+        x: 3858
+        y: 869
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3db238f5ce675230800000000000000
+      internalID: 3627489821421911357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_49
+      rect:
+        serializedVersion: 2
+        x: 5336
+        y: 889
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525fd6d5e198b5bf0800000000000000
+      internalID: -334522983799458523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_50
+      rect:
+        serializedVersion: 2
+        x: 3463
+        y: 874
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf00d4b1a18490e0800000000000000
+      internalID: -2264042181137264721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_51
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 849
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f074c9f484aa9c0800000000000000
+      internalID: -3915237419283706022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_52
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 849
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce27240a930dcce00800000000000000
+      internalID: 1066456157700387564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_53
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 849
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283a19a4c6ab0aff0800000000000000
+      internalID: -26816623493930110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_54
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 829
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4790b52e5ad9904b0800000000000000
+      internalID: -5473670536299345548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_55
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 824
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c647d3b8be728c700800000000000000
+      internalID: 560742046214485100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_56
+      rect:
+        serializedVersion: 2
+        x: 2789
+        y: 814
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6fc56d0efc336b0800000000000000
+      internalID: -5317678170418383107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_57
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 829
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fada07dab99f53970800000000000000
+      internalID: 8734161499380034991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_58
+      rect:
+        serializedVersion: 2
+        x: 4722
+        y: 829
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ec23b896ad66fd0800000000000000
+      internalID: -2348950008785351093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_59
+      rect:
+        serializedVersion: 2
+        x: 5151
+        y: 824
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f366376a2d2516fd0800000000000000
+      internalID: -2350506465821497793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_60
+      rect:
+        serializedVersion: 2
+        x: 5615
+        y: 814
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c1efbf913b47450800000000000000
+      internalID: 6085685920667671646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_61
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 794
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914904b0ab2f323b0800000000000000
+      internalID: -5538316235868957671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_62
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 804
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7befbf463323ab020800000000000000
+      internalID: 2358252551200833207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_63
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 809
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e746af990a5141360800000000000000
+      internalID: 7139355088811353214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_64
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 799
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e9aa2e057ee0640800000000000000
+      internalID: 5048226566915137144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_65
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 804
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f743a7d316326d20800000000000000
+      internalID: 3270235738274482166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_66
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 794
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445b1472c12d35e20800000000000000
+      internalID: 3338242767171204420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_67
+      rect:
+        serializedVersion: 2
+        x: 4262
+        y: 804
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181466741426ec750800000000000000
+      internalID: 6327102559012405633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_68
+      rect:
+        serializedVersion: 2
+        x: 4427
+        y: 809
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af99edf6746a95ea0800000000000000
+      internalID: -5883488612433094150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_69
+      rect:
+        serializedVersion: 2
+        x: 4961
+        y: 799
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4fb386d06a3cd5e0800000000000000
+      internalID: -1883566356557480117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_70
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 759
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575ccafd3262066f0800000000000000
+      internalID: -693512407096703627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_71
+      rect:
+        serializedVersion: 2
+        x: 2714
+        y: 784
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb9fac1d4827ab70800000000000000
+      internalID: 8910134699434679276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_72
+      rect:
+        serializedVersion: 2
+        x: 3753
+        y: 779
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974b1439272c27660800000000000000
+      internalID: 7382176536566281337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_73
+      rect:
+        serializedVersion: 2
+        x: 4207
+        y: 759
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44edf982a453a4730800000000000000
+      internalID: 3984055412988042820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_74
+      rect:
+        serializedVersion: 2
+        x: 5540
+        y: 784
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff12876b2c0c0c70800000000000000
+      internalID: 8938532740983300095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_75
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 754
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2fa8ade3b7c3ca0800000000000000
+      internalID: -6035813890698579287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_76
+      rect:
+        serializedVersion: 2
+        x: 3169
+        y: 739
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9cad7467ccca0db0800000000000000
+      internalID: -4824818894017549155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_77
+      rect:
+        serializedVersion: 2
+        x: 3453
+        y: 754
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4ca7c18dbb338b0800000000000000
+      internalID: -5173585010053430052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_78
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 734
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62d264ee2c390f10800000000000000
+      internalID: 2236384862064005740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_79
+      rect:
+        serializedVersion: 2
+        x: 4097
+        y: 734
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d62b67133d4473f0800000000000000
+      internalID: -904012743363057966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_80
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 699
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda0a59350dc15cd0800000000000000
+      internalID: -2571048489931109669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_81
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 714
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e4f081b63fb7630800000000000000
+      internalID: 3925999141474225779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_82
+      rect:
+        serializedVersion: 2
+        x: 2914
+        y: 699
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2332809d1cef47b90800000000000000
+      internalID: -7244885792008953038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_83
+      rect:
+        serializedVersion: 2
+        x: 3758
+        y: 714
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0889c185e71d807c0800000000000000
+      internalID: -4104800719773853568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_84
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 669
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8538c6ca7c9ee4d70800000000000000
+      internalID: 9029411346724979544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_85
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 689
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae96edd32cb93730800000000000000
+      internalID: 3979418607991299752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_86
+      rect:
+        serializedVersion: 2
+        x: 4657
+        y: 669
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044ad515203609d20800000000000000
+      internalID: 3283232989959267392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_87
+      rect:
+        serializedVersion: 2
+        x: 5061
+        y: 689
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73a473e89cd8ae60800000000000000
+      internalID: 7973865689468674938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_88
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 654
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dce83ec57223d400800000000000000
+      internalID: 347659485604015312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_89
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 654
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be50558a725afb400800000000000000
+      internalID: 342173686449898987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_90
+      rect:
+        serializedVersion: 2
+        x: 2889
+        y: 664
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dfe07fab78f54530800000000000000
+      internalID: 3838747467511295953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_91
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 654
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406dedcba266beb40800000000000000
+      internalID: 5470578506114979332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_92
+      rect:
+        serializedVersion: 2
+        x: 4447
+        y: 654
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b031aeb9b8adac70800000000000000
+      internalID: 8984022347394658481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_93
+      rect:
+        serializedVersion: 2
+        x: 5715
+        y: 664
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedda8b817e8e04a0800000000000000
+      internalID: -6625201383491838483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_94
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 629
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b80fe09a49851090800000000000000
+      internalID: -8064388604384835403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_95
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 574
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17ed6c79380f8550800000000000000
+      internalID: 6165155457887233818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_96
+      rect:
+        serializedVersion: 2
+        x: 4966
+        y: 629
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21fc1b25e2e95820800000000000000
+      internalID: 2907604508343071020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_97
+      rect:
+        serializedVersion: 2
+        x: 5151
+        y: 574
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99750d8918831cab0800000000000000
+      internalID: -4989644782884071527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_98
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 599
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441e53774fb144c80800000000000000
+      internalID: -8339509873197326012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_99
+      rect:
+        serializedVersion: 2
+        x: 3518
+        y: 599
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135ba8fabfb2109b0800000000000000
+      internalID: -5115759341734283983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_100
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 544
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e105efd671b49d0800000000000000
+      internalID: -2789109783040352703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_101
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 569
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19120ff3155097320800000000000000
+      internalID: 2556080110032658833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_102
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 559
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afaba39e7dc336ab0800000000000000
+      internalID: -5016098661932025094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_103
+      rect:
+        serializedVersion: 2
+        x: 4152
+        y: 544
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1913e7d121138990800000000000000
+      internalID: -7385040126903903973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_104
+      rect:
+        serializedVersion: 2
+        x: 5645
+        y: 569
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6192c8dc668263fb0800000000000000
+      internalID: -4668499541722650346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_105
+      rect:
+        serializedVersion: 2
+        x: 5750
+        y: 564
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f23dd743ae6c52e0800000000000000
+      internalID: -2135710475716054285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_106
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 519
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46dd13fc40aeba60800000000000000
+      internalID: 7691761465952163404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_107
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 499
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d103a33bd59db50800000000000000
+      internalID: 6618424151754415498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_108
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 509
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1edd08959fbba90800000000000000
+      internalID: -7296964608414326341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_109
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 489
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd399af3c9c46000800000000000000
+      internalID: 28369341231218139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_110
+      rect:
+        serializedVersion: 2
+        x: 3708
+        y: 519
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dbfa451e80f06050800000000000000
+      internalID: 5791893613831715798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_111
+      rect:
+        serializedVersion: 2
+        x: 3808
+        y: 499
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38bc47cbb0ceb43b0800000000000000
+      internalID: -5527064582516585597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_112
+      rect:
+        serializedVersion: 2
+        x: 4102
+        y: 509
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dca5ddd408b47ea0800000000000000
+      internalID: -5875869282770506541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_113
+      rect:
+        serializedVersion: 2
+        x: 4417
+        y: 489
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964eda6a8af1af090800000000000000
+      internalID: -8000046978858883991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_114
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 434
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2389d3e1077861bc0800000000000000
+      internalID: -3812711118909106126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_115
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 439
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e04373d7536cd50800000000000000
+      internalID: 6757147102829350407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_116
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 439
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8cce3a15da169240800000000000000
+      internalID: 4798051955580521612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_117
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 424
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03725cce3eeea09c0800000000000000
+      internalID: -3960090259621599440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_118
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 434
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d72a07a28d543d20800000000000000
+      internalID: 3257331246225303505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_119
+      rect:
+        serializedVersion: 2
+        x: 3508
+        y: 439
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7f67865dc6f7c40800000000000000
+      internalID: 5512244132761237473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_120
+      rect:
+        serializedVersion: 2
+        x: 4487
+        y: 439
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ae6e221bec371d0800000000000000
+      internalID: -3354110037270795656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_121
+      rect:
+        serializedVersion: 2
+        x: 5011
+        y: 424
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9102f9a41d07050800000000000000
+      internalID: 5796362838853294590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_122
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 414
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f439764fe8f4370800000000000000
+      internalID: 8309017017882726263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_123
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 414
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66199bce971ad8d60800000000000000
+      internalID: 7894143266885046630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_124
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 399
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34acefee73252ce0800000000000000
+      internalID: -1430698278522149827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_125
+      rect:
+        serializedVersion: 2
+        x: 3653
+        y: 414
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e205d8317528a860800000000000000
+      internalID: 7541318744246911713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_126
+      rect:
+        serializedVersion: 2
+        x: 3743
+        y: 414
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4623b0145c4990230800000000000000
+      internalID: 3605576551607513700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_127
+      rect:
+        serializedVersion: 2
+        x: 4796
+        y: 399
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e1a408e124a8830800000000000000
+      internalID: 4074141511678828099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_128
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 389
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f043dcb32c13a320800000000000000
+      internalID: 2567927152348709109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_129
+      rect:
+        serializedVersion: 2
+        x: 3728
+        y: 379
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b504fe32d1a05e0800000000000000
+      internalID: -1942708249081914609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_130
+      rect:
+        serializedVersion: 2
+        x: 4397
+        y: 389
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b196aca7c2b1efae0800000000000000
+      internalID: -1513742546897311461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_131
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 364
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23823474264a15f0800000000000000
+      internalID: -785238062640495830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_132
+      rect:
+        serializedVersion: 2
+        x: 5700
+        y: 364
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae43d0051b0b8b8d0800000000000000
+      internalID: -2830318090203613974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_133
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 339
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 988ad24653afc4440800000000000000
+      internalID: 4921583600030034057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_134
+      rect:
+        serializedVersion: 2
+        x: 3468
+        y: 339
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038972d4b4d85dc80800000000000000
+      internalID: -8298571383803766736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_135
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 299
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc95c5bb5ab55a250800000000000000
+      internalID: 5955266849638472139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_136
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 244
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097bf9fa65151bff0800000000000000
+      internalID: -22147090404624496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_137
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 294
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5f62b58a9600670800000000000000
+      internalID: 8502912268280198631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_138
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 309
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06515a3accc6201c0800000000000000
+      internalID: -4538945848261405344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_139
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 299
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42a82b6dc6d95400800000000000000
+      internalID: 313517826833424973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_140
+      rect:
+        serializedVersion: 2
+        x: 3283
+        y: 244
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04c740a9dff2bd40800000000000000
+      internalID: 5598818596936991754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_141
+      rect:
+        serializedVersion: 2
+        x: 3918
+        y: 294
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b45944e0cdc2d30800000000000000
+      internalID: 4408140089127160587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_142
+      rect:
+        serializedVersion: 2
+        x: 5246
+        y: 309
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0495d5794dcda70b0800000000000000
+      internalID: -5730024770244880064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_143
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 264
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc09080c6e636e810800000000000000
+      internalID: 1794181866253750477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_144
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 264
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ddf6169834380050800000000000000
+      internalID: 5766916740488822231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_145
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 269
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc10be03db507810800000000000000
+      internalID: 1761008416344513747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_146
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 274
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1396f7d4520a830800000000000000
+      internalID: 4080302277177979323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_147
+      rect:
+        serializedVersion: 2
+        x: 3408
+        y: 264
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0a49f9a95549490800000000000000
+      internalID: -7740467736952397662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_148
+      rect:
+        serializedVersion: 2
+        x: 3843
+        y: 264
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca6bf993f879e500800000000000000
+      internalID: 426004627418999496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_149
+      rect:
+        serializedVersion: 2
+        x: 5031
+        y: 269
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1fd4df83ac5bc630800000000000000
+      internalID: 3948351355882888991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_150
+      rect:
+        serializedVersion: 2
+        x: 5196
+        y: 274
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898d9e001782ff540800000000000000
+      internalID: 5043794573489985688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_151
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 249
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc47df35cda751d0800000000000000
+      internalID: -3362027534117548803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_152
+      rect:
+        serializedVersion: 2
+        x: 3503
+        y: 249
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6836f033d037400800000000000000
+      internalID: 320614511426111206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_153
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 189
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99bcc33e54c523e30800000000000000
+      internalID: 4481746034421975961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_154
+      rect:
+        serializedVersion: 2
+        x: 2764
+        y: 199
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a280053b7bf79e2c0800000000000000
+      internalID: -4401846733813839830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_155
+      rect:
+        serializedVersion: 2
+        x: 4122
+        y: 189
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db137ccc6d731a4a0800000000000000
+      internalID: -6583919784540819011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_156
+      rect:
+        serializedVersion: 2
+        x: 5590
+        y: 199
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cec4af9cc5e67fc0800000000000000
+      internalID: -3497355393592144192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_157
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 155
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc4fa21c510190a0800000000000000
+      internalID: -6876713661055939380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_158
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 164
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd2b9aa336494730800000000000000
+      internalID: 3983792533105487359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_159
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 169
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa70401f50858380800000000000000
+      internalID: -8969621937055565152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_160
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 155
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63493bdf21a7eb7b0800000000000000
+      internalID: -5206589897209310154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_161
+      rect:
+        serializedVersion: 2
+        x: 4067
+        y: 164
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e94ef278a2b453a0800000000000000
+      internalID: -6677515910930085404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_162
+      rect:
+        serializedVersion: 2
+        x: 5041
+        y: 169
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da8af94473ca9ea0800000000000000
+      internalID: -5865160660471870766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_163
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 140
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff11852807631db30800000000000000
+      internalID: 4310286175221322239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_164
+      rect:
+        serializedVersion: 2
+        x: 3483
+        y: 160
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ebe9a44b1ec1e970800000000000000
+      internalID: 8782527364860603369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_165
+      rect:
+        serializedVersion: 2
+        x: 3493
+        y: 155
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415ecdb4cf5aef670800000000000000
+      internalID: 8574473243583112468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_166
+      rect:
+        serializedVersion: 2
+        x: 4287
+        y: 140
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39d2bc379e63f760800000000000000
+      internalID: 7490452201084737850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_167
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 140
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04652dcd428e60da0800000000000000
+      internalID: -5978836210266515904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_168
+      rect:
+        serializedVersion: 2
+        x: 3493
+        y: 130
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df2952af701cd830800000000000000
+      internalID: 4097167901370953688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_169
+      rect:
+        serializedVersion: 2
+        x: 4986
+        y: 140
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca23e0fac9b606b50800000000000000
+      internalID: 6584380975911678636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_170
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 105
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e73ee099c17f8090800000000000000
+      internalID: -8030074500044408864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_171
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 120
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2d0a75ef31da900800000000000000
+      internalID: 697235500425073400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_172
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 115
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30e40f93a64fef00800000000000000
+      internalID: 1148214098564276284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_173
+      rect:
+        serializedVersion: 2
+        x: 2969
+        y: 105
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5b564a42bc72240800000000000000
+      internalID: 4767002088832349618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_174
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 120
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b68f62abd7e93180800000000000000
+      internalID: -9135015438635268431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_175
+      rect:
+        serializedVersion: 2
+        x: 5001
+        y: 115
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905f8ba1768c2c7c0800000000000000
+      internalID: -4052456369524509431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_176
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 70
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5078afc1591528c30800000000000000
+      internalID: 4360137090126219013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_177
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 85
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90911e21e03cc150800000000000000
+      internalID: 5894139756019814554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_178
+      rect:
+        serializedVersion: 2
+        x: 3583
+        y: 70
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7f401ed154154c0800000000000000
+      internalID: -4300580174530545678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_179
+      rect:
+        serializedVersion: 2
+        x: 3718
+        y: 65
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2db09e9238b70ac0800000000000000
+      internalID: -3888937225662972628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_180
+      rect:
+        serializedVersion: 2
+        x: 4866
+        y: 85
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b40e2601996d260800000000000000
+      internalID: 7122048156390411067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_181
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 65
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e494069a1b549cc60800000000000000
+      internalID: 7838873255768246606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_182
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 50
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f501384c9e4a008a0800000000000000
+      internalID: -6340886951406399393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_183
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 55
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97cba6fa887749250800000000000000
+      internalID: 5950512436605533305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_184
+      rect:
+        serializedVersion: 2
+        x: 2270
+        y: 55
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7866f368c8f1670800000000000000
+      internalID: 8511676328970717142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_185
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 30
+        width: 62
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc4d07f7656f5860800000000000000
+      internalID: 7520841399932898502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_186
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 40
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9996ce01a98e490800000000000000
+      internalID: -7716748564022847028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_187
+      rect:
+        serializedVersion: 2
+        x: 4462
+        y: 65
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ec401958e8a3040800000000000000
+      internalID: 4628168271391411841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_188
+      rect:
+        serializedVersion: 2
+        x: 4756
+        y: 50
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff21213a1403aac20800000000000000
+      internalID: 3218437942176518911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_189
+      rect:
+        serializedVersion: 2
+        x: 4836
+        y: 55
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549955fb183210880800000000000000
+      internalID: -8646590769406830267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_190
+      rect:
+        serializedVersion: 2
+        x: 5096
+        y: 55
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0583ef9948221cb0800000000000000
+      internalID: -4894805548318096118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_191
+      rect:
+        serializedVersion: 2
+        x: 5201
+        y: 30
+        width: 62
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6042913acc487f980800000000000000
+      internalID: -8505183356821363706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_192
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 40
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0129eac7990a7aa0800000000000000
+      internalID: -6162602592554114804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_193
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 40
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876d0417705b6c650800000000000000
+      internalID: 6252884176219985528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_194
+      rect:
+        serializedVersion: 2
+        x: 3209
+        y: 25
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b19c6f727222f3e0800000000000000
+      internalID: -2021515407576493643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_195
+      rect:
+        serializedVersion: 2
+        x: 3538
+        y: 40
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c19a9a13f81593e0800000000000000
+      internalID: -2047703023167565373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_196
+      rect:
+        serializedVersion: 2
+        x: 4422
+        y: 40
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5f7d463890b6ac0800000000000000
+      internalID: -3860981795602827783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_197
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 0
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c395aa5a63908d0800000000000000
+      internalID: -2879710401571242869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_198
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 20
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6123e48a8fd6509c0800000000000000
+      internalID: -3961639382459469290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_FON_001_B_199
+      rect:
+        serializedVersion: 2
+        x: 5276
+        y: 0
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d494a66d58692e280800000000000000
+      internalID: -9015478002470205107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
