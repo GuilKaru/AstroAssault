@@ -113,7 +113,7 @@ MonoBehaviour:
   _horizontalSpeed: 1
   _destroyXThreshold: -15
   _scorePoints: 100
-  _animator: {fileID: 0}
+  _animator: {fileID: -2515872182026454599}
   _buff1Prefab: {fileID: 7317702618939439578, guid: f25fef387dfbae247813f5159d9c4d08, type: 3}
   _buff2Prefab: {fileID: 6040874723535597199, guid: 569de9808c7434f40b0559579ffe1ef6, type: 3}
   _buffSpawnChance: 0.25

@@ -9,11 +9,19 @@ namespace AstroAssault
 		[SerializeField]
 		private int _maxHits = 3; // Number of hits the shield can take
 		private int _currentHits;
+
+		[Header("Animation")]
+		[SerializeField]
+		private Animator _animator;
 		#endregion
 
 		//References
 		#region References
 		private BuffManager _buffManager;
+
+		//Animations
+		private string _currentState;
+		private string _idleAnim = "PlayerShield_Idle";
 		#endregion
 
 		//Initialization
@@ -22,6 +30,8 @@ namespace AstroAssault
 		{
 			_currentHits = _maxHits;
 			_buffManager = FindObjectOfType<BuffManager>();
+			_animator = _animator = GetComponent<Animator>();
+			ChangeAnimationState(_idleAnim);
 		}
 		#endregion
 
@@ -71,6 +81,23 @@ namespace AstroAssault
 		public void ResetShield()
 		{
 			_currentHits = _maxHits;
+		}
+		#endregion
+
+		//Animation
+		#region Animation
+
+		private void ChangeAnimationState(string newState)
+		{
+			// Avoid transitioning to the same animation
+			if (_currentState == newState) return;
+
+			// Play the new animation
+			_animator.Play(newState);
+
+			// Update the current state
+			_currentState = newState;
+
 		}
 		#endregion
 	}

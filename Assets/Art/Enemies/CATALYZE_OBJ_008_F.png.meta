@@ -1,0 +1,3809 @@
+fileFormatVersion: 2
+guid: a216cdc5940318e49b1e7694d544b9eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1061045244208718863
+    second: CATALYZE_OBJ_008_F_0
+  - first:
+      213: -4348742031620327183
+    second: CATALYZE_OBJ_008_F_1
+  - first:
+      213: 8715111661333372975
+    second: CATALYZE_OBJ_008_F_2
+  - first:
+      213: -798208959282856908
+    second: CATALYZE_OBJ_008_F_3
+  - first:
+      213: -4382654886580210186
+    second: CATALYZE_OBJ_008_F_4
+  - first:
+      213: -1892413551884137278
+    second: CATALYZE_OBJ_008_F_5
+  - first:
+      213: 3244267632923342306
+    second: CATALYZE_OBJ_008_F_6
+  - first:
+      213: 473103764346484146
+    second: CATALYZE_OBJ_008_F_7
+  - first:
+      213: 5672256677150680569
+    second: CATALYZE_OBJ_008_F_8
+  - first:
+      213: 4307227819795463589
+    second: CATALYZE_OBJ_008_F_9
+  - first:
+      213: -4287951455799889422
+    second: CATALYZE_OBJ_008_F_10
+  - first:
+      213: 5156517905571642823
+    second: CATALYZE_OBJ_008_F_11
+  - first:
+      213: 1579902414737214616
+    second: CATALYZE_OBJ_008_F_12
+  - first:
+      213: -2556107676846962250
+    second: CATALYZE_OBJ_008_F_13
+  - first:
+      213: -2896934382106572151
+    second: CATALYZE_OBJ_008_F_14
+  - first:
+      213: -1284827496310881116
+    second: CATALYZE_OBJ_008_F_15
+  - first:
+      213: 8342595327803731789
+    second: CATALYZE_OBJ_008_F_16
+  - first:
+      213: 4778141965571013713
+    second: CATALYZE_OBJ_008_F_17
+  - first:
+      213: -2034772460814329516
+    second: CATALYZE_OBJ_008_F_18
+  - first:
+      213: 8863380533360096280
+    second: CATALYZE_OBJ_008_F_19
+  - first:
+      213: 6241462748324265389
+    second: CATALYZE_OBJ_008_F_20
+  - first:
+      213: 4477729772794398626
+    second: CATALYZE_OBJ_008_F_21
+  - first:
+      213: -4169079131577430246
+    second: CATALYZE_OBJ_008_F_22
+  - first:
+      213: 1909189575737394388
+    second: CATALYZE_OBJ_008_F_23
+  - first:
+      213: -7917987311195429422
+    second: CATALYZE_OBJ_008_F_24
+  - first:
+      213: -640891699623585035
+    second: CATALYZE_OBJ_008_F_25
+  - first:
+      213: 65416773427238678
+    second: CATALYZE_OBJ_008_F_26
+  - first:
+      213: 4269416954269219908
+    second: CATALYZE_OBJ_008_F_27
+  - first:
+      213: 3857580648451686987
+    second: CATALYZE_OBJ_008_F_28
+  - first:
+      213: -2910664509029660217
+    second: CATALYZE_OBJ_008_F_29
+  - first:
+      213: 5290533333706059782
+    second: CATALYZE_OBJ_008_F_30
+  - first:
+      213: -6411437179826886604
+    second: CATALYZE_OBJ_008_F_31
+  - first:
+      213: -6505482235834568709
+    second: CATALYZE_OBJ_008_F_32
+  - first:
+      213: 5120761799326793627
+    second: CATALYZE_OBJ_008_F_33
+  - first:
+      213: -3254598463144265286
+    second: CATALYZE_OBJ_008_F_34
+  - first:
+      213: 8295528894992815516
+    second: CATALYZE_OBJ_008_F_35
+  - first:
+      213: 8715692280383052345
+    second: CATALYZE_OBJ_008_F_36
+  - first:
+      213: 602738204500028911
+    second: CATALYZE_OBJ_008_F_37
+  - first:
+      213: -8045366391317120162
+    second: CATALYZE_OBJ_008_F_38
+  - first:
+      213: 3759548753058857918
+    second: CATALYZE_OBJ_008_F_39
+  - first:
+      213: -6415160591115090875
+    second: CATALYZE_OBJ_008_F_40
+  - first:
+      213: 4234840699662836936
+    second: CATALYZE_OBJ_008_F_41
+  - first:
+      213: -8029987130063239860
+    second: CATALYZE_OBJ_008_F_42
+  - first:
+      213: -4714607365324570833
+    second: CATALYZE_OBJ_008_F_43
+  - first:
+      213: -69786175647945712
+    second: CATALYZE_OBJ_008_F_44
+  - first:
+      213: 6534927225522997267
+    second: CATALYZE_OBJ_008_F_45
+  - first:
+      213: -8439712632281511454
+    second: CATALYZE_OBJ_008_F_46
+  - first:
+      213: -6296136772761359094
+    second: CATALYZE_OBJ_008_F_47
+  - first:
+      213: -1196236079216850981
+    second: CATALYZE_OBJ_008_F_48
+  - first:
+      213: 1081843359675109943
+    second: CATALYZE_OBJ_008_F_49
+  - first:
+      213: 1026228519092845225
+    second: CATALYZE_OBJ_008_F_50
+  - first:
+      213: -8257357513001611660
+    second: CATALYZE_OBJ_008_F_51
+  - first:
+      213: -7201175515076044113
+    second: CATALYZE_OBJ_008_F_52
+  - first:
+      213: -5490579519706312568
+    second: CATALYZE_OBJ_008_F_53
+  - first:
+      213: -3276997002640839751
+    second: CATALYZE_OBJ_008_F_54
+  - first:
+      213: -5587023703313826968
+    second: CATALYZE_OBJ_008_F_55
+  - first:
+      213: -2681040409432200192
+    second: CATALYZE_OBJ_008_F_56
+  - first:
+      213: -1571616144726463651
+    second: CATALYZE_OBJ_008_F_57
+  - first:
+      213: -7098427753632138443
+    second: CATALYZE_OBJ_008_F_58
+  - first:
+      213: 1889981935463946938
+    second: CATALYZE_OBJ_008_F_59
+  - first:
+      213: -4289200030712055293
+    second: CATALYZE_OBJ_008_F_60
+  - first:
+      213: 533174506351513291
+    second: CATALYZE_OBJ_008_F_61
+  - first:
+      213: 7831864462265751391
+    second: CATALYZE_OBJ_008_F_62
+  - first:
+      213: -9070034206832586134
+    second: CATALYZE_OBJ_008_F_63
+  - first:
+      213: 7277971268844456354
+    second: CATALYZE_OBJ_008_F_64
+  - first:
+      213: 1504891348887184864
+    second: CATALYZE_OBJ_008_F_65
+  - first:
+      213: -7608838232385598576
+    second: CATALYZE_OBJ_008_F_66
+  - first:
+      213: -807054637355896612
+    second: CATALYZE_OBJ_008_F_67
+  - first:
+      213: 8992466805774235030
+    second: CATALYZE_OBJ_008_F_68
+  - first:
+      213: 3758464854486041858
+    second: CATALYZE_OBJ_008_F_69
+  - first:
+      213: 332879008473493141
+    second: CATALYZE_OBJ_008_F_70
+  - first:
+      213: -7325944811901622580
+    second: CATALYZE_OBJ_008_F_71
+  - first:
+      213: -5390589732575924191
+    second: CATALYZE_OBJ_008_F_72
+  - first:
+      213: -3926228235744071009
+    second: CATALYZE_OBJ_008_F_73
+  - first:
+      213: 5017844744359922431
+    second: CATALYZE_OBJ_008_F_74
+  - first:
+      213: -5558471786207911677
+    second: CATALYZE_OBJ_008_F_75
+  - first:
+      213: 2632321438202495395
+    second: CATALYZE_OBJ_008_F_76
+  - first:
+      213: -1478081789476147413
+    second: CATALYZE_OBJ_008_F_77
+  - first:
+      213: -7438439496093365581
+    second: CATALYZE_OBJ_008_F_78
+  - first:
+      213: 2619583404896635220
+    second: CATALYZE_OBJ_008_F_79
+  - first:
+      213: -450686151096173061
+    second: CATALYZE_OBJ_008_F_80
+  - first:
+      213: -5537451195670732192
+    second: CATALYZE_OBJ_008_F_81
+  - first:
+      213: -6967680753250726255
+    second: CATALYZE_OBJ_008_F_82
+  - first:
+      213: 6241361864057128938
+    second: CATALYZE_OBJ_008_F_83
+  - first:
+      213: -7886782972971046062
+    second: CATALYZE_OBJ_008_F_84
+  - first:
+      213: 570295780999411557
+    second: CATALYZE_OBJ_008_F_85
+  - first:
+      213: 2532106797799834934
+    second: CATALYZE_OBJ_008_F_86
+  - first:
+      213: -3412423511399404482
+    second: CATALYZE_OBJ_008_F_87
+  - first:
+      213: -1353653748929372422
+    second: CATALYZE_OBJ_008_F_88
+  - first:
+      213: 7963055778593852697
+    second: CATALYZE_OBJ_008_F_89
+  - first:
+      213: -2955118436427934182
+    second: CATALYZE_OBJ_008_F_90
+  - first:
+      213: 3542423030172037120
+    second: CATALYZE_OBJ_008_F_91
+  - first:
+      213: 870874836679202696
+    second: CATALYZE_OBJ_008_F_92
+  - first:
+      213: 8095851277272881037
+    second: CATALYZE_OBJ_008_F_93
+  - first:
+      213: -5746228687198876156
+    second: CATALYZE_OBJ_008_F_94
+  - first:
+      213: 9204904847419373035
+    second: CATALYZE_OBJ_008_F_95
+  - first:
+      213: -6770431122371202790
+    second: CATALYZE_OBJ_008_F_96
+  - first:
+      213: 2362374586049161400
+    second: CATALYZE_OBJ_008_F_97
+  - first:
+      213: -2210606003137790074
+    second: CATALYZE_OBJ_008_F_98
+  - first:
+      213: 1128703108901312691
+    second: CATALYZE_OBJ_008_F_99
+  - first:
+      213: -3878695089599360850
+    second: CATALYZE_OBJ_008_F_100
+  - first:
+      213: 2663181373951112322
+    second: CATALYZE_OBJ_008_F_101
+  - first:
+      213: -425370425462668089
+    second: CATALYZE_OBJ_008_F_102
+  - first:
+      213: -3095135653165532408
+    second: CATALYZE_OBJ_008_F_103
+  - first:
+      213: -955813645874879084
+    second: CATALYZE_OBJ_008_F_104
+  - first:
+      213: -8700387476080726468
+    second: CATALYZE_OBJ_008_F_105
+  - first:
+      213: -6673393952288158043
+    second: CATALYZE_OBJ_008_F_106
+  - first:
+      213: -7813904943995416868
+    second: CATALYZE_OBJ_008_F_107
+  - first:
+      213: -4349637897622333549
+    second: CATALYZE_OBJ_008_F_108
+  - first:
+      213: -9080368996449112571
+    second: CATALYZE_OBJ_008_F_109
+  - first:
+      213: 5202785741363113718
+    second: CATALYZE_OBJ_008_F_110
+  - first:
+      213: 7988102001329664656
+    second: CATALYZE_OBJ_008_F_111
+  - first:
+      213: 1393378583823532535
+    second: CATALYZE_OBJ_008_F_112
+  - first:
+      213: -834167390783911050
+    second: CATALYZE_OBJ_008_F_113
+  - first:
+      213: 5201905307950862226
+    second: CATALYZE_OBJ_008_F_114
+  - first:
+      213: 8529958443527064327
+    second: CATALYZE_OBJ_008_F_115
+  - first:
+      213: -8470777160069418905
+    second: CATALYZE_OBJ_008_F_116
+  - first:
+      213: -8153467958318805038
+    second: CATALYZE_OBJ_008_F_117
+  - first:
+      213: -5859906426550641671
+    second: CATALYZE_OBJ_008_F_118
+  - first:
+      213: -9082496253547687117
+    second: CATALYZE_OBJ_008_F_119
+  - first:
+      213: -8022614883374796208
+    second: CATALYZE_OBJ_008_F_120
+  - first:
+      213: -9031751882313506440
+    second: CATALYZE_OBJ_008_F_121
+  - first:
+      213: -1291233000723933292
+    second: CATALYZE_OBJ_008_F_122
+  - first:
+      213: 1652090059580583716
+    second: CATALYZE_OBJ_008_F_123
+  - first:
+      213: -4156471643291370877
+    second: CATALYZE_OBJ_008_F_124
+  - first:
+      213: -5935011879542085875
+    second: CATALYZE_OBJ_008_F_125
+  - first:
+      213: -3904453307237588746
+    second: CATALYZE_OBJ_008_F_126
+  - first:
+      213: -8433913416812009488
+    second: CATALYZE_OBJ_008_F_127
+  - first:
+      213: 8288095666381826616
+    second: CATALYZE_OBJ_008_F_128
+  - first:
+      213: -1590094519589645346
+    second: CATALYZE_OBJ_008_F_129
+  - first:
+      213: -5783728174690862257
+    second: CATALYZE_OBJ_008_F_130
+  - first:
+      213: 5729897842625746354
+    second: CATALYZE_OBJ_008_F_131
+  - first:
+      213: 237203420093257782
+    second: CATALYZE_OBJ_008_F_132
+  - first:
+      213: -6803401872631022522
+    second: CATALYZE_OBJ_008_F_133
+  - first:
+      213: -3042139489116796603
+    second: CATALYZE_OBJ_008_F_134
+  - first:
+      213: -929381232359795301
+    second: CATALYZE_OBJ_008_F_135
+  - first:
+      213: -1830093004962559703
+    second: CATALYZE_OBJ_008_F_136
+  - first:
+      213: 2815813804972560566
+    second: CATALYZE_OBJ_008_F_137
+  - first:
+      213: 6648408461860712609
+    second: CATALYZE_OBJ_008_F_138
+  - first:
+      213: -8918286104448347973
+    second: CATALYZE_OBJ_008_F_139
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_0
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 604
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb5258d8f86641f0800000000000000
+      internalID: -1061045244208718863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_1
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 610
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8b571b92a26a3c0800000000000000
+      internalID: -4348742031620327183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_2
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 509
+        width: 38
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20e3af91eb42f870800000000000000
+      internalID: 8715111661333372975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_3
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 604
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c396d3e213ce4f0800000000000000
+      internalID: -798208959282856908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_4
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 610
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5b148d99ead23c0800000000000000
+      internalID: -4382654886580210186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_5
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 604
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc8fc7a6ebccb5e0800000000000000
+      internalID: -1892413551884137278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_6
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 521
+        width: 74
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e571b82934f50d20800000000000000
+      internalID: 3244267632923342306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_7
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 569
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5b5c7fd5dc09600800000000000000
+      internalID: 473103764346484146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_8
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 593
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5676c1567e7be40800000000000000
+      internalID: 5672256677150680569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_9
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 593
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5adb695a1e856cb30800000000000000
+      internalID: 4307227819795463589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_10
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 575
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1bde69ed22e74c0800000000000000
+      internalID: -4287951455799889422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_11
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 569
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdf987f6b1af8740800000000000000
+      internalID: 5156517905571642823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_12
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 545
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c813220e0fce510800000000000000
+      internalID: 1579902414737214616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_13
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 503
+        width: 68
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b943e95c91e68cd0800000000000000
+      internalID: -2556107676846962250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_14
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 563
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a0ce037850cc7d0800000000000000
+      internalID: -2896934382106572151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_15
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 539
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a44cbc03306b2ee0800000000000000
+      internalID: -1284827496310881116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_16
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 461
+        width: 56
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f239aef3ad6c370800000000000000
+      internalID: 8342595327803731789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_17
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 551
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c3f305dce5f4240800000000000000
+      internalID: 4778141965571013713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_18
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 539
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4591a624a3903c3e0800000000000000
+      internalID: -2034772460814329516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_19
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 551
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8147a0882ad010b70800000000000000
+      internalID: 8863380533360096280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_20
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 551
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad73b80d412e9650800000000000000
+      internalID: 6241462748324265389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_21
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 551
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7c99b1187142e30800000000000000
+      internalID: 4477729772794398626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_22
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 527
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f45d95e947426c0800000000000000
+      internalID: -4169079131577430246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_23
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 533
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4c4b6cdcdce7a10800000000000000
+      internalID: 1909189575737394388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_24
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 521
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d56524ed78ad1290800000000000000
+      internalID: -7917987311195429422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_25
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 485
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa907015681b17f0800000000000000
+      internalID: -640891699623585035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_26
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 443
+        width: 92
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6179b76753868e000800000000000000
+      internalID: 65416773427238678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_27
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 485
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c3f3d7914004b30800000000000000
+      internalID: 4269416954269219908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_28
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 521
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4242635921e88530800000000000000
+      internalID: 3857580648451686987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_29
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 503
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c943f6ec0e3b97d0800000000000000
+      internalID: -2910664509029660217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_30
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 509
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600b9eb5900cb6940800000000000000
+      internalID: 5290533333706059782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_31
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 497
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438afacaadff507a0800000000000000
+      internalID: -6411437179826886604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_32
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 497
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff6770cf52e7b5a0800000000000000
+      internalID: -6505482235834568709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_33
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 503
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f734cb9b9901740800000000000000
+      internalID: 5120761799326793627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_34
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 491
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9f0cdf0f755d2d0800000000000000
+      internalID: -3254598463144265286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_35
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 473
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9519021493af1370800000000000000
+      internalID: 8295528894992815516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_36
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 485
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a98d783fb54f870800000000000000
+      internalID: 8715692280383052345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_37
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 473
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fede7cb143b5d5800800000000000000
+      internalID: 602738204500028911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_38
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 479
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b3dada4ed195090800000000000000
+      internalID: -8045366391317120162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_39
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 461
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb306d50ca99c2430800000000000000
+      internalID: 3759548753058857918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_40
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 407
+        width: 74
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544008d6e65c8f6a0800000000000000
+      internalID: -6415160591115090875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_41
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 449
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c425cfdd2d25ca30800000000000000
+      internalID: 4234840699662836936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_42
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 443
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c454f99ff31cf8090800000000000000
+      internalID: -8029987130063239860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_43
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 431
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f736e8499529eb0800000000000000
+      internalID: -4714607365324570833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_44
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 431
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c654ec7d1180ff0800000000000000
+      internalID: -69786175647945712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_45
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 425
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318c35620b9b0ba50800000000000000
+      internalID: 6534927225522997267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_46
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 377
+        width: 140
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9cb72931e10ea80800000000000000
+      internalID: -8439712632281511454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_47
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 407
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0de84aa6f0af98a0800000000000000
+      internalID: -6296136772761359094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_48
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 395
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd706c6bf9d166fe0800000000000000
+      internalID: -1196236079216850981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_49
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 401
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732dc04cdca730f00800000000000000
+      internalID: 1081843359675109943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_50
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 395
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa77e2a665ed3e00800000000000000
+      internalID: 1026228519092845225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_51
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 395
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ec22e5719f76d80800000000000000
+      internalID: -8257357513001611660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_52
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 383
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faad6a2c509401c90800000000000000
+      internalID: -7201175515076044113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_53
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 389
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880ded4640b8dc3b0800000000000000
+      internalID: -5490579519706312568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_54
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 383
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bba29f9694c582d0800000000000000
+      internalID: -3276997002640839751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_55
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 377
+        width: 38
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86bba4c0b87e672b0800000000000000
+      internalID: -5587023703313826968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_56
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 383
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c635fc3f70bcad0800000000000000
+      internalID: -2681040409432200192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_57
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 359
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b6f42717f703ae0800000000000000
+      internalID: -1571616144726463651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_58
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 371
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b7bf031915d7d90800000000000000
+      internalID: -7098427753632138443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_59
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 365
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abadb378e809a3a10800000000000000
+      internalID: 1889981935463946938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_60
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 365
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a30d61c43b974c0800000000000000
+      internalID: -4289200030712055293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_61
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 365
+        width: 38
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce406e7367366700800000000000000
+      internalID: 533174506351513291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_62
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 359
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f571b52cb3f50bc60800000000000000
+      internalID: 7831864462265751391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_63
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 347
+        width: 104
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a621a19a1f3c02280800000000000000
+      internalID: -9070034206832586134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_64
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 347
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a909f40f4c800560800000000000000
+      internalID: 7277971268844456354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_65
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 335
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5aaf365b272e410800000000000000
+      internalID: 1504891348887184864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_66
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 335
+        width: 62
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09bce35e0f9f76690800000000000000
+      internalID: -7608838232385598576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_67
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 347
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0f1125514ccc4f0800000000000000
+      internalID: -807054637355896612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_68
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 329
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6953aac6ae8abcc70800000000000000
+      internalID: 8992466805774235030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_69
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 305
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2054e683fdfb82430800000000000000
+      internalID: 3758464854486041858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_70
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 317
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e2f3dc1bf9e9400800000000000000
+      internalID: 332879008473493141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_71
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 329
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6ec721204055a90800000000000000
+      internalID: -7325944811901622580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_72
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 305
+        width: 62
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120b1f3e237c035b0800000000000000
+      internalID: -5390589732575924191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_73
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 299
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92bd5db83c3389c0800000000000000
+      internalID: -3926228235744071009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_74
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 299
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa42a59537f2a540800000000000000
+      internalID: 5017844744359922431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_75
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 275
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301eb094c575cd2b0800000000000000
+      internalID: -5558471786207911677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_76
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 269
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a184b2c662e78420800000000000000
+      internalID: 2632321438202495395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_77
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 137
+        width: 152
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fec45917ccc7be0800000000000000
+      internalID: -1478081789476147413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_78
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 275
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba8e1850ba55c890800000000000000
+      internalID: -7438439496093365581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_79
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 257
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4594f544a31aa5420800000000000000
+      internalID: 2619583404896635220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_80
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 275
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd79ba5557deb9f0800000000000000
+      internalID: -450686151096173061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_81
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 257
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062ebf8e9750723b0800000000000000
+      internalID: -5537451195670732192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_82
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 245
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e0a227543dd4f90800000000000000
+      internalID: -6967680753250726255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_83
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 239
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae78bc51c85cd9650800000000000000
+      internalID: 6241361864057128938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_84
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 227
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b267b0ca48c8290800000000000000
+      internalID: -7886782972971046062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_85
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 173
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567bf53cdf81ae700800000000000000
+      internalID: 570295780999411557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_86
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 113
+        width: 80
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635063887b9d32320800000000000000
+      internalID: 2532106797799834934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_87
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 251
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ce8db65e2a4a0d0800000000000000
+      internalID: -3412423511399404482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_88
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 197
+        width: 62
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe503a561bd63de0800000000000000
+      internalID: -1353653748929372422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_89
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 233
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d45b16a05728e60800000000000000
+      internalID: 7963055778593852697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_90
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 185
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16518f507f4df6d0800000000000000
+      internalID: -2955118436427934182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_91
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 209
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00031953af6392130800000000000000
+      internalID: 3542423030172037120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_92
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 173
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8871714cc08f51c00800000000000000
+      internalID: 870874836679202696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_93
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 131
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d871e30d7dd3a5070800000000000000
+      internalID: 8095851277272881037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_94
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 173
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e0a5d247b4140b0800000000000000
+      internalID: -5746228687198876156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_95
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 197
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5f3b560346ebf70800000000000000
+      internalID: 9204904847419373035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_96
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 191
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11b0d6f3c89a02a0800000000000000
+      internalID: -6770431122371202790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_97
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 137
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8eedb6b27d8c020800000000000000
+      internalID: 2362374586049161400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_98
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 71
+        width: 44
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f30ac6d895251e0800000000000000
+      internalID: -2210606003137790074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_99
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 161
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b811f65f75f9af00800000000000000
+      internalID: 1128703108901312691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_100
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 155
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0d060cd5b1c2ac0800000000000000
+      internalID: -3878695089599360850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_101
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 173
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284fac6795585f420800000000000000
+      internalID: 2663181373951112322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_102
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 173
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4475c0ad7c81af0800000000000000
+      internalID: -425370425462668089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_103
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 143
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80bfb6da58edb05d0800000000000000
+      internalID: -3095135653165532408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_104
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 155
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495282e9d844cb2f0800000000000000
+      internalID: -955813645874879084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_105
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 143
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e63f7efa3024780800000000000000
+      internalID: -8700387476080726468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_106
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 155
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aecf9bbe875363a0800000000000000
+      internalID: -6673393952288158043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_107
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 143
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde0c707ade6f8390800000000000000
+      internalID: -7813904943995416868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_108
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 107
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397d4a2a06bf2a3c0800000000000000
+      internalID: -4349637897622333549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_109
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 113
+        width: 14
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e2e21f18c0cf180800000000000000
+      internalID: -9080368996449112571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_110
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 107
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe6a64f012043840800000000000000
+      internalID: 5202785741363113718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_111
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 125
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09277da82707bde60800000000000000
+      internalID: 7988102001329664656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_112
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 95
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f140768076465310800000000000000
+      internalID: 1393378583823532535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_113
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 101
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b4c1d7d217c64f0800000000000000
+      internalID: -834167390783911050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_114
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 119
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f41a31151e03840800000000000000
+      internalID: 5201905307950862226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_115
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 101
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b464fb200806670800000000000000
+      internalID: 8529958443527064327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_116
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 107
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 760f1929d01c17a80800000000000000
+      internalID: -8470777160069418905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_117
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 101
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dfc0e0471019de80800000000000000
+      internalID: -8153467958318805038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_118
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 65
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb9b64f62e6daea0800000000000000
+      internalID: -5859906426550641671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_119
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 107
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333597d47cd74f180800000000000000
+      internalID: -9082496253547687117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_120
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 107
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052feaae442f9a090800000000000000
+      internalID: -8022614883374796208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_121
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 107
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871ec3be385c8a280800000000000000
+      internalID: -9031751882313506440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_122
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 101
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49796955d6e941ee0800000000000000
+      internalID: -1291233000723933292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_123
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 89
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f2142f7276de610800000000000000
+      internalID: 1652090059580583716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_124
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 77
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a32a6ff0f3156c0800000000000000
+      internalID: -4156471643291370877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_125
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 65
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07ab2ef32a92ada0800000000000000
+      internalID: -5935011879542085875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_126
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 65
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0210c576890d9c0800000000000000
+      internalID: -3904453307237588746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_127
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 65
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7e484ae68b4fa80800000000000000
+      internalID: -8433913416812009488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_128
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 89
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83aa42ba81b350370800000000000000
+      internalID: 8288095666381826616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_129
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed350988579dee9e0800000000000000
+      internalID: -1590094519589645346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_130
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 77
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4bf12e5ed11cbfa0800000000000000
+      internalID: -5783728174690862257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_131
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 77
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b51cf4cabfa48f40800000000000000
+      internalID: 5729897842625746354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_132
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 71
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6389a2af047ba4300800000000000000
+      internalID: 237203420093257782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_133
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 65
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64cb995fa067591a0800000000000000
+      internalID: -6803401872631022522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_134
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 59
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549410aa04628c5d0800000000000000
+      internalID: -3042139489116796603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_135
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 65
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95974871bc2a13f0800000000000000
+      internalID: -929381232359795301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_136
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 48
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9298745bb143a96e0800000000000000
+      internalID: -1830093004962559703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_137
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 53
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0d70f9cb7c31720800000000000000
+      internalID: 2815813804972560566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_138
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 42
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0b8e27544e34c50800000000000000
+      internalID: 6648408461860712609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATALYZE_OBJ_008_F_139
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 36
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0dd030a02eb3480800000000000000
+      internalID: -8918286104448347973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CATALYZE_OBJ_008_F_0: -1061045244208718863
+      CATALYZE_OBJ_008_F_1: -4348742031620327183
+      CATALYZE_OBJ_008_F_10: -4287951455799889422
+      CATALYZE_OBJ_008_F_100: -3878695089599360850
+      CATALYZE_OBJ_008_F_101: 2663181373951112322
+      CATALYZE_OBJ_008_F_102: -425370425462668089
+      CATALYZE_OBJ_008_F_103: -3095135653165532408
+      CATALYZE_OBJ_008_F_104: -955813645874879084
+      CATALYZE_OBJ_008_F_105: -8700387476080726468
+      CATALYZE_OBJ_008_F_106: -6673393952288158043
+      CATALYZE_OBJ_008_F_107: -7813904943995416868
+      CATALYZE_OBJ_008_F_108: -4349637897622333549
+      CATALYZE_OBJ_008_F_109: -9080368996449112571
+      CATALYZE_OBJ_008_F_11: 5156517905571642823
+      CATALYZE_OBJ_008_F_110: 5202785741363113718
+      CATALYZE_OBJ_008_F_111: 7988102001329664656
+      CATALYZE_OBJ_008_F_112: 1393378583823532535
+      CATALYZE_OBJ_008_F_113: -834167390783911050
+      CATALYZE_OBJ_008_F_114: 5201905307950862226
+      CATALYZE_OBJ_008_F_115: 8529958443527064327
+      CATALYZE_OBJ_008_F_116: -8470777160069418905
+      CATALYZE_OBJ_008_F_117: -8153467958318805038
+      CATALYZE_OBJ_008_F_118: -5859906426550641671
+      CATALYZE_OBJ_008_F_119: -9082496253547687117
+      CATALYZE_OBJ_008_F_12: 1579902414737214616
+      CATALYZE_OBJ_008_F_120: -8022614883374796208
+      CATALYZE_OBJ_008_F_121: -9031751882313506440
+      CATALYZE_OBJ_008_F_122: -1291233000723933292
+      CATALYZE_OBJ_008_F_123: 1652090059580583716
+      CATALYZE_OBJ_008_F_124: -4156471643291370877
+      CATALYZE_OBJ_008_F_125: -5935011879542085875
+      CATALYZE_OBJ_008_F_126: -3904453307237588746
+      CATALYZE_OBJ_008_F_127: -8433913416812009488
+      CATALYZE_OBJ_008_F_128: 8288095666381826616
+      CATALYZE_OBJ_008_F_129: -1590094519589645346
+      CATALYZE_OBJ_008_F_13: -2556107676846962250
+      CATALYZE_OBJ_008_F_130: -5783728174690862257
+      CATALYZE_OBJ_008_F_131: 5729897842625746354
+      CATALYZE_OBJ_008_F_132: 237203420093257782
+      CATALYZE_OBJ_008_F_133: -6803401872631022522
+      CATALYZE_OBJ_008_F_134: -3042139489116796603
+      CATALYZE_OBJ_008_F_135: -929381232359795301
+      CATALYZE_OBJ_008_F_136: -1830093004962559703
+      CATALYZE_OBJ_008_F_137: 2815813804972560566
+      CATALYZE_OBJ_008_F_138: 6648408461860712609
+      CATALYZE_OBJ_008_F_139: -8918286104448347973
+      CATALYZE_OBJ_008_F_14: -2896934382106572151
+      CATALYZE_OBJ_008_F_15: -1284827496310881116
+      CATALYZE_OBJ_008_F_16: 8342595327803731789
+      CATALYZE_OBJ_008_F_17: 4778141965571013713
+      CATALYZE_OBJ_008_F_18: -2034772460814329516
+      CATALYZE_OBJ_008_F_19: 8863380533360096280
+      CATALYZE_OBJ_008_F_2: 8715111661333372975
+      CATALYZE_OBJ_008_F_20: 6241462748324265389
+      CATALYZE_OBJ_008_F_21: 4477729772794398626
+      CATALYZE_OBJ_008_F_22: -4169079131577430246
+      CATALYZE_OBJ_008_F_23: 1909189575737394388
+      CATALYZE_OBJ_008_F_24: -7917987311195429422
+      CATALYZE_OBJ_008_F_25: -640891699623585035
+      CATALYZE_OBJ_008_F_26: 65416773427238678
+      CATALYZE_OBJ_008_F_27: 4269416954269219908
+      CATALYZE_OBJ_008_F_28: 3857580648451686987
+      CATALYZE_OBJ_008_F_29: -2910664509029660217
+      CATALYZE_OBJ_008_F_3: -798208959282856908
+      CATALYZE_OBJ_008_F_30: 5290533333706059782
+      CATALYZE_OBJ_008_F_31: -6411437179826886604
+      CATALYZE_OBJ_008_F_32: -6505482235834568709
+      CATALYZE_OBJ_008_F_33: 5120761799326793627
+      CATALYZE_OBJ_008_F_34: -3254598463144265286
+      CATALYZE_OBJ_008_F_35: 8295528894992815516
+      CATALYZE_OBJ_008_F_36: 8715692280383052345
+      CATALYZE_OBJ_008_F_37: 602738204500028911
+      CATALYZE_OBJ_008_F_38: -8045366391317120162
+      CATALYZE_OBJ_008_F_39: 3759548753058857918
+      CATALYZE_OBJ_008_F_4: -4382654886580210186
+      CATALYZE_OBJ_008_F_40: -6415160591115090875
+      CATALYZE_OBJ_008_F_41: 4234840699662836936
+      CATALYZE_OBJ_008_F_42: -8029987130063239860
+      CATALYZE_OBJ_008_F_43: -4714607365324570833
+      CATALYZE_OBJ_008_F_44: -69786175647945712
+      CATALYZE_OBJ_008_F_45: 6534927225522997267
+      CATALYZE_OBJ_008_F_46: -8439712632281511454
+      CATALYZE_OBJ_008_F_47: -6296136772761359094
+      CATALYZE_OBJ_008_F_48: -1196236079216850981
+      CATALYZE_OBJ_008_F_49: 1081843359675109943
+      CATALYZE_OBJ_008_F_5: -1892413551884137278
+      CATALYZE_OBJ_008_F_50: 1026228519092845225
+      CATALYZE_OBJ_008_F_51: -8257357513001611660
+      CATALYZE_OBJ_008_F_52: -7201175515076044113
+      CATALYZE_OBJ_008_F_53: -5490579519706312568
+      CATALYZE_OBJ_008_F_54: -3276997002640839751
+      CATALYZE_OBJ_008_F_55: -5587023703313826968
+      CATALYZE_OBJ_008_F_56: -2681040409432200192
+      CATALYZE_OBJ_008_F_57: -1571616144726463651
+      CATALYZE_OBJ_008_F_58: -7098427753632138443
+      CATALYZE_OBJ_008_F_59: 1889981935463946938
+      CATALYZE_OBJ_008_F_6: 3244267632923342306
+      CATALYZE_OBJ_008_F_60: -4289200030712055293
+      CATALYZE_OBJ_008_F_61: 533174506351513291
+      CATALYZE_OBJ_008_F_62: 7831864462265751391
+      CATALYZE_OBJ_008_F_63: -9070034206832586134
+      CATALYZE_OBJ_008_F_64: 7277971268844456354
+      CATALYZE_OBJ_008_F_65: 1504891348887184864
+      CATALYZE_OBJ_008_F_66: -7608838232385598576
+      CATALYZE_OBJ_008_F_67: -807054637355896612
+      CATALYZE_OBJ_008_F_68: 8992466805774235030
+      CATALYZE_OBJ_008_F_69: 3758464854486041858
+      CATALYZE_OBJ_008_F_7: 473103764346484146
+      CATALYZE_OBJ_008_F_70: 332879008473493141
+      CATALYZE_OBJ_008_F_71: -7325944811901622580
+      CATALYZE_OBJ_008_F_72: -5390589732575924191
+      CATALYZE_OBJ_008_F_73: -3926228235744071009
+      CATALYZE_OBJ_008_F_74: 5017844744359922431
+      CATALYZE_OBJ_008_F_75: -5558471786207911677
+      CATALYZE_OBJ_008_F_76: 2632321438202495395
+      CATALYZE_OBJ_008_F_77: -1478081789476147413
+      CATALYZE_OBJ_008_F_78: -7438439496093365581
+      CATALYZE_OBJ_008_F_79: 2619583404896635220
+      CATALYZE_OBJ_008_F_8: 5672256677150680569
+      CATALYZE_OBJ_008_F_80: -450686151096173061
+      CATALYZE_OBJ_008_F_81: -5537451195670732192
+      CATALYZE_OBJ_008_F_82: -6967680753250726255
+      CATALYZE_OBJ_008_F_83: 6241361864057128938
+      CATALYZE_OBJ_008_F_84: -7886782972971046062
+      CATALYZE_OBJ_008_F_85: 570295780999411557
+      CATALYZE_OBJ_008_F_86: 2532106797799834934
+      CATALYZE_OBJ_008_F_87: -3412423511399404482
+      CATALYZE_OBJ_008_F_88: -1353653748929372422
+      CATALYZE_OBJ_008_F_89: 7963055778593852697
+      CATALYZE_OBJ_008_F_9: 4307227819795463589
+      CATALYZE_OBJ_008_F_90: -2955118436427934182
+      CATALYZE_OBJ_008_F_91: 3542423030172037120
+      CATALYZE_OBJ_008_F_92: 870874836679202696
+      CATALYZE_OBJ_008_F_93: 8095851277272881037
+      CATALYZE_OBJ_008_F_94: -5746228687198876156
+      CATALYZE_OBJ_008_F_95: 9204904847419373035
+      CATALYZE_OBJ_008_F_96: -6770431122371202790
+      CATALYZE_OBJ_008_F_97: 2362374586049161400
+      CATALYZE_OBJ_008_F_98: -2210606003137790074
+      CATALYZE_OBJ_008_F_99: 1128703108901312691
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2993348663903928847}
   - component: {fileID: 5719890101817930763}
-  - component: {fileID: 8376813427078249936}
+  - component: {fileID: 5933555157449212455}
   - component: {fileID: 4076355147382498653}
   - component: {fileID: 3208462940521369758}
   - component: {fileID: 3622053063916412445}
@@ -112,7 +112,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1535083122906778782, guid: f0ca82e7f4d75834caa7ba1c032dd04e, type: 3}
+  m_Sprite: {fileID: -1010979814347780937, guid: 007a1681aab8e6748a136131e82fce89, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -123,7 +123,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8376813427078249936
+--- !u!114 &5933555157449212455
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -132,12 +132,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8373454058099720707}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdebcc6e8e7014347bf1a2b07dab9000, type: 3}
+  m_Script: {fileID: 11500000, guid: 222832c199167204db908f642565a3dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _enemyBulletPrefab: {fileID: 8630930039567718491, guid: d3fc2dd257c51574fb8bf03b22e2f5d3, type: 3}
   _shootingPoint: {fileID: 5319609209463116973}
-  _shootInterval: 0.5
+  _shootInterval: 2
   _canShoot: 1
   _verticalSpeed: 2
   _verticalAmplitude: 2.5
@@ -147,7 +147,7 @@ MonoBehaviour:
   _animator: {fileID: 3208462940521369758}
   _buff1Prefab: {fileID: 7317702618939439578, guid: f25fef387dfbae247813f5159d9c4d08, type: 3}
   _buff2Prefab: {fileID: 6040874723535597199, guid: 569de9808c7434f40b0559579ffe1ef6, type: 3}
-  _buffSpawnChance: 0.25
+  _buffSpawnChance: 0.35
 --- !u!50 &4076355147382498653
 Rigidbody2D:
   serializedVersion: 5
@@ -185,7 +185,7 @@ Animator:
   m_GameObject: {fileID: 8373454058099720707}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 36106ffcdbaf81341a6fc2074091e8a4, type: 2}
+  m_Controller: {fileID: 9100000, guid: 498ae4f7a1e091647a7405f67b374ac3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

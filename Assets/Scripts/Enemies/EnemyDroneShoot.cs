@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 namespace AstroAssault
 {
@@ -59,6 +60,7 @@ namespace AstroAssault
 		//Animations
 		private string _currentState;
 		private string _idleAnim = "Enemy_Idle";
+		private string _deathAnim = "Enemy_Death";
 		#endregion
 
 		//Initialization
@@ -173,13 +175,22 @@ namespace AstroAssault
 
 				// Destroy this enemy and the bullet
 				Destroy(collision.gameObject);
-				Destroy(gameObject);
+
+				if (_animator != null)
+				{
+					ChangeAnimationState(_deathAnim);
+					GetComponent<Collider2D>().enabled = false;
+				}
+
+				StartCoroutine(DestroyAfterDelay(0.70f));
 			}
 
 			if (collision.gameObject.CompareTag("Player"))
 			{
 				_playerHealth.Damage(1);
-				Destroy(gameObject);
+				ChangeAnimationState(_deathAnim);
+				GetComponent<Collider2D>().enabled = false;
+				StartCoroutine(DestroyAfterDelay(0.70f));
 			}
 		}
 		#endregion
@@ -238,6 +249,14 @@ namespace AstroAssault
 			// Update the current state
 			_currentState = newState;
 
+		}
+
+
+		// Coroutine to delay destruction
+		private IEnumerator DestroyAfterDelay(float delay)
+		{
+			yield return new WaitForSeconds(delay);
+			Destroy(gameObject);
 		}
 		#endregion
 	}

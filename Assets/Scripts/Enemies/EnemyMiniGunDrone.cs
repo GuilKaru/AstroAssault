@@ -122,8 +122,14 @@ namespace AstroAssault
 		{
 			if (_bulletPrefab != null && _shootingPoint != null)
 			{
-				// Instantiate bullet
-				GameObject bullet = Instantiate(_bulletPrefab, _shootingPoint.position, Quaternion.identity);
+				// Create a base rotation for the bullet (aligned to global "up" or intended direction)
+				Quaternion baseRotation = Quaternion.Euler(0, 0, 0); // Adjust this to match your "default forward" direction.
+
+				// Combine base rotation with the shooting point's local rotation
+				Quaternion finalRotation = baseRotation * _shootingPoint.rotation;
+
+				// Instantiate the bullet
+				GameObject bullet = Instantiate(_bulletPrefab, _shootingPoint.position, finalRotation);
 
 				// Parent the bullet to BulletParent if it exists
 				if (_bulletParent != null)
@@ -135,7 +141,8 @@ namespace AstroAssault
 				EnemyBulletController bulletController = bullet.GetComponent<EnemyBulletController>();
 				if (bulletController != null)
 				{
-					Vector3 shootDirection = _shootingPoint.up; // Adjust for 2D or other axes
+					// Use the final rotation to determine the movement direction
+					Vector3 shootDirection = finalRotation * Vector3.left; // Adjust if your bullet's "forward" is different
 					bulletController.InitializeMovement(shootDirection);
 				}
 			}

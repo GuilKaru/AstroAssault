@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 namespace AstroAssault
 {
@@ -58,7 +59,9 @@ namespace AstroAssault
 
 		//Animations
 		private string _currentState;
-		private string _idleAnim = "Enemy_Idle";
+		private string _idleAnim = "EnemyShotgun_Idle";
+		private string _deathAnim = "Enemy_Death";
+
 		#endregion
 
 		// Initialization
@@ -105,14 +108,21 @@ namespace AstroAssault
 		{
 			if (_enemyBulletPrefab != null && _shootingPoint != null)
 			{
-				// Shoot 3 bullets in different directions
+
+				// Base rotation (set to face directly upwards in world space)
+				Quaternion baseRotation = Quaternion.Euler(0, 0, 0); // Adjust as needed to your "forward" direction
+
+				// Shoot 3 bullets in a spread
 				for (int i = -1; i <= 1; i++) // -1, 0, 1 for left, center, and right bullets
 				{
-					float angle = i * _spreadAngle; // Calculate angle for spread
-					Quaternion rotation = Quaternion.Euler(0, 0, angle) * _shootingPoint.rotation;
+					float angle = i * _spreadAngle; // Calculate spread angle
+					Quaternion spreadRotation = Quaternion.Euler(0, 0, angle); // Spread rotation
 
-					// Instantiate bullet
-					GameObject bullet = Instantiate(_enemyBulletPrefab, _shootingPoint.position, rotation);
+					// Combine the base rotation with the spread rotation
+					Quaternion finalRotation = baseRotation * spreadRotation;
+
+					// Instantiate the bullet
+					GameObject bullet = Instantiate(_enemyBulletPrefab, _shootingPoint.position, finalRotation);
 
 					// Parent the bullet to BulletParent if it exists
 					if (_bulletParent != null)
@@ -120,13 +130,15 @@ namespace AstroAssault
 						bullet.transform.SetParent(_bulletParent.transform);
 					}
 
-					// Initialize bullet's movement
+					// Initialize the bullet's movement direction
 					EnemyBulletController bulletController = bullet.GetComponent<EnemyBulletController>();
 					if (bulletController != null)
 					{
-						Vector3 direction = rotation * Vector3.up; // Adjust direction based on rotation
+						// Use the final rotation to determine the movement direction
+						Vector3 direction = finalRotation * Vector3.left; // Adjust if "up" isn't your intended direction
 						bulletController.InitializeMovement(direction);
 					}
+
 				}
 			}
 		}
@@ -173,7 +185,10 @@ namespace AstroAssault
 
 				// Destroy this enemy and the player's bullet
 				Destroy(collision.gameObject);
-				Destroy(gameObject);
+
+				ChangeAnimationState(_deathAnim);
+				GetComponent<Collider2D>().enabled = false;
+				StartCoroutine(DestroyAfterDelay(0.70f));
 			}
 
 			if (collision.gameObject.CompareTag("Player"))
@@ -184,8 +199,9 @@ namespace AstroAssault
 					_playerHealth.Damage(1);
 				}
 
-				// Destroy the drone
-				Destroy(gameObject);
+				ChangeAnimationState(_deathAnim);
+				GetComponent<Collider2D>().enabled = false;
+				StartCoroutine(DestroyAfterDelay(0.70f));
 			}
 		}
 		#endregion
@@ -231,6 +247,12 @@ namespace AstroAssault
 			// Update the current state
 			_currentState = newState;
 
+		}
+
+		private IEnumerator DestroyAfterDelay(float delay)
+		{
+			yield return new WaitForSeconds(delay);
+			Destroy(gameObject);
 		}
 		#endregion
 

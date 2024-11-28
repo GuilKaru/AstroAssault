@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1535083122906778782, guid: f0ca82e7f4d75834caa7ba1c032dd04e, type: 3}
+  m_Sprite: {fileID: -5945128992522454187, guid: a9653d9afc0eb264c86caa8e3da75b5d, type: 3}
   m_Color: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -148,7 +148,7 @@ Animator:
   m_GameObject: {fileID: 1550966279395146545}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 36106ffcdbaf81341a6fc2074091e8a4, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0b5f67d4b236875458ab193c7024ac9f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -614,7 +614,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1535083122906778782, guid: f0ca82e7f4d75834caa7ba1c032dd04e, type: 3}
+  m_Sprite: {fileID: -5945128992522454187, guid: a9653d9afc0eb264c86caa8e3da75b5d, type: 3}
   m_Color: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -682,7 +682,7 @@ Animator:
   m_GameObject: {fileID: 6985342502876828151}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 36106ffcdbaf81341a6fc2074091e8a4, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0b5f67d4b236875458ab193c7024ac9f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1093,7 +1093,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1535083122906778782, guid: f0ca82e7f4d75834caa7ba1c032dd04e, type: 3}
+  m_Sprite: {fileID: -5945128992522454187, guid: a9653d9afc0eb264c86caa8e3da75b5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1161,7 +1161,7 @@ Animator:
   m_GameObject: {fileID: 8934327732217240914}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 36106ffcdbaf81341a6fc2074091e8a4, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0b5f67d4b236875458ab193c7024ac9f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

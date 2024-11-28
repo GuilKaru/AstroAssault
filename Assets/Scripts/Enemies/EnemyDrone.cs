@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using System.Collections;
 namespace AstroAssault
 {
 	public class EnemyDrone : MonoBehaviour
@@ -40,7 +40,8 @@ namespace AstroAssault
 
 		//Animations
 		private string _currentState;
-		private string _idleAnim = "Enemy_Idle";
+		private string _idleAnim = "EnemyDrone_Idle";
+		private string _deathAnim = "Enemy_Death";
 		#endregion
 
 		//Initialization
@@ -57,7 +58,8 @@ namespace AstroAssault
 				_playerHealth = player.GetComponent<PlayerHealth>();
 			
 			}
-			
+
+			_animator = GetComponent<Animator>();
 
 			// Start the delay and set the target position
 			Invoke(nameof(InitializeMovement), _delayBeforeMove);
@@ -114,14 +116,19 @@ namespace AstroAssault
 
 				// Destroy this enemy and the bullet
 				Destroy(collision.gameObject);
-				Destroy(gameObject);
+
+				ChangeAnimationState(_deathAnim);
+				GetComponent<Collider2D>().enabled = false;
+				StartCoroutine(DestroyAfterDelay(0.70f));
 			}
 
 
 			if (collision.gameObject.CompareTag("Player"))
 			{
 				_playerHealth.Damage(1);
-				Destroy(gameObject);
+				ChangeAnimationState(_deathAnim);
+				GetComponent<Collider2D>().enabled = false;
+				StartCoroutine(DestroyAfterDelay(0.70f));
 			}
 		}
 		#endregion
@@ -167,6 +174,13 @@ namespace AstroAssault
 			// Update the current state
 			_currentState = newState;
 
+		}
+
+		// Coroutine to delay destruction
+		private IEnumerator DestroyAfterDelay(float delay)
+		{
+			yield return new WaitForSeconds(delay);
+			Destroy(gameObject);
 		}
 		#endregion
 	}
