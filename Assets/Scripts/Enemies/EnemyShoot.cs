@@ -37,6 +37,16 @@ namespace AstroAssault
 		[SerializeField]
 		private Animator _animator;
 
+		[Header("Enemy Audio")]
+		[SerializeField]
+		private AudioSource _shootAudioSource;
+		[SerializeField]
+		private AudioClip[] _shootClips;
+		[SerializeField]
+		private AudioSource _hitAudioSource;
+		[SerializeField]
+		private AudioClip[] _enemyHitClip;
+
 		[Header("Buffs")]
 		[SerializeField]
 		private GameObject _buff1Prefab; // First buff prefab
@@ -73,6 +83,9 @@ namespace AstroAssault
 
 			// Locate the ScoreManager in the scene
 			_scoreManager = FindObjectOfType<ScoreManager>();
+
+			_hitAudioSource = GetComponentInChildren<AudioSource>();
+			_shootAudioSource = GetComponentInChildren<AudioSource>();
 
 			_animator = GetComponent<Animator>();
 
@@ -111,6 +124,7 @@ namespace AstroAssault
 			if (_enemyBulletPrefab != null && _shootingPoint != null)
 			{
 				GameObject bullet = Instantiate(_enemyBulletPrefab, _shootingPoint.position, Quaternion.identity);
+				PlayAudioShootClip(0);
 
 				// Parent the bullet to BulletParent if it exists
 				if (_bulletParent != null)
@@ -179,6 +193,8 @@ namespace AstroAssault
 				if (_animator != null)
 				{
 					ChangeAnimationState(_deathAnim);
+					PlayAudioEnemyHitClip(0);
+
 					GetComponent<Collider2D>().enabled = false;
 				}
 
@@ -189,6 +205,8 @@ namespace AstroAssault
 			{
 				_playerHealth.Damage(1);
 				ChangeAnimationState(_deathAnim);
+				PlayAudioEnemyHitClip(0);
+
 				GetComponent<Collider2D>().enabled = false;
 				StartCoroutine(DestroyAfterDelay(0.70f));
 			}
@@ -257,6 +275,28 @@ namespace AstroAssault
 		{
 			yield return new WaitForSeconds(delay);
 			Destroy(gameObject);
+		}
+		#endregion
+
+		//Enemy Audio
+		#region Enemy Audio
+
+		private void PlayAudioShootClip(int clipIndex)
+		{
+			if (clipIndex >= 0 && clipIndex < _shootClips.Length)
+			{
+				_shootAudioSource.clip = _shootClips[clipIndex];
+				_shootAudioSource.Play();
+			}
+		}
+
+		public void PlayAudioEnemyHitClip(int clipIndex)
+		{
+			if (clipIndex >= 0 && clipIndex < _enemyHitClip.Length)
+			{
+				_hitAudioSource.clip = _enemyHitClip[clipIndex];
+				_hitAudioSource.Play();
+			}
 		}
 		#endregion
 

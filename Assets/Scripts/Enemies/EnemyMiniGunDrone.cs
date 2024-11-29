@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 namespace AstroAssault
 {
@@ -27,6 +28,23 @@ namespace AstroAssault
 		[Header("Rotation Settings")]
 		[SerializeField]
 		private float _rotationSpeed = 100f; // Speed of rotation while shooting
+		[SerializeField]
+		SpriteRenderer _rotatingSprite;
+
+		[Header("Animation")]
+		[SerializeField]
+		private Animator _animator;
+
+		[Header("Enemy Audio")]
+		[SerializeField]
+		private AudioSource _shootAudioSource;
+		[SerializeField]
+		private AudioClip[] _shootClips;
+		[SerializeField]
+		private AudioSource _hitAudioSource;
+		[SerializeField]
+		private AudioClip[] _enemyHitClip;
+
 
 		[Header("Buffs")]
 		[SerializeField]
@@ -48,6 +66,11 @@ namespace AstroAssault
 
 		private ScoreManager _scoreManager;
 		private PlayerHealth _playerHealth;
+
+		//Animations
+		private string _currentState;
+		private string _idleAnim = "EnemyMiniGun_Idle";
+		private string _deathAnim = "Enemy_Death";
 		#endregion
 
 		//Initialization
@@ -60,6 +83,11 @@ namespace AstroAssault
 
 			// Locate the ScoreManager in the scene
 			_scoreManager = FindObjectOfType<ScoreManager>();
+			_animator = GetComponent<Animator>();
+
+			_hitAudioSource = GetComponentInChildren<AudioSource>();
+			_shootAudioSource = GetComponentInChildren<AudioSource>();
+
 
 			GameObject player = GameObject.FindGameObjectWithTag("Player");
 			if (player != null)
@@ -67,6 +95,7 @@ namespace AstroAssault
 				_playerHealth = player.GetComponent<PlayerHealth>();
 
 			}
+			ChangeAnimationState(_idleAnim);
 		}
 
 		private void Update()
@@ -130,6 +159,7 @@ namespace AstroAssault
 
 				// Instantiate the bullet
 				GameObject bullet = Instantiate(_bulletPrefab, _shootingPoint.position, finalRotation);
+				PlayAudioShootClip(0);
 
 				// Parent the bullet to BulletParent if it exists
 				if (_bulletParent != null)
@@ -165,7 +195,11 @@ namespace AstroAssault
 
 				// Destroy this enemy and the bullet
 				Destroy(collision.gameObject);
-				Destroy(gameObject);
+				ChangeAnimationState(_deathAnim);
+				PlayAudioEnemyHitClip(0);
+				GetComponent<Collider2D>().enabled = false;
+				_rotatingSprite.GetComponent<SpriteRenderer>().enabled = false;
+				StartCoroutine(DestroyAfterDelay(1f));
 			}
 
 			TrySpawnBuff();
@@ -173,7 +207,11 @@ namespace AstroAssault
 			if (collision.gameObject.CompareTag("Player"))
 			{
 				_playerHealth.Damage(1);
-				Destroy(gameObject);
+				ChangeAnimationState(_deathAnim);
+				GetComponent<Collider2D>().enabled = false;
+				PlayAudioEnemyHitClip(0);
+				_rotatingSprite.GetComponent<SpriteRenderer>().enabled = false;
+				StartCoroutine(DestroyAfterDelay(0.70f));
 			}
 		}
 		#endregion
@@ -218,6 +256,49 @@ namespace AstroAssault
 		}
 		#endregion
 
+		//Animations
+		#region Animations
+		private void ChangeAnimationState(string newState)
+		{
+			// Avoid transitioning to the same animation
+			if (_currentState == newState) return;
+
+			// Play the new animation
+			_animator.Play(newState);
+
+			// Update the current state
+			_currentState = newState;
+
+		}
+
+		private IEnumerator DestroyAfterDelay(float delay)
+		{
+			yield return new WaitForSeconds(delay);
+			Destroy(gameObject);
+		}
+		#endregion
+
+		//Enemy Audio
+		#region Enemy Audio
+
+		private void PlayAudioShootClip(int clipIndex)
+		{
+			if (clipIndex >= 0 && clipIndex < _shootClips.Length)
+			{
+				_shootAudioSource.clip = _shootClips[clipIndex];
+				_shootAudioSource.Play();
+			}
+		}
+
+		public void PlayAudioEnemyHitClip(int clipIndex)
+		{
+			if (clipIndex >= 0 && clipIndex < _enemyHitClip.Length)
+			{
+				_hitAudioSource.clip = _enemyHitClip[clipIndex];
+				_hitAudioSource.Play();
+			}
+		}
+		#endregion
 	}
 }
 

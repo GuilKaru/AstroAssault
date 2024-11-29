@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 namespace AstroAssault
 {
@@ -15,6 +16,12 @@ namespace AstroAssault
 		[SerializeField]
 		private GameObject _smallerAsteroidPrefab;
 		[SerializeField] private float _spreadAngle = 30f;
+
+		[Header("Audio")]
+		[SerializeField]
+		private AudioSource _hitAudioSource;
+		[SerializeField]
+		private AudioClip[] _enemyHitClip;
 		#endregion
 
 		// Private Variables
@@ -37,6 +44,8 @@ namespace AstroAssault
 			{
 				_playerHealth = player.GetComponent<PlayerHealth>();
 			}
+
+			_hitAudioSource = GetComponent<AudioSource>();
 
 			GameObject enemyParentObject = GameObject.Find("EnemyParent");
 			if (enemyParentObject == null)
@@ -98,10 +107,14 @@ namespace AstroAssault
 
 				// Spawn two smaller asteroids
 				SpawnSmallerAsteroids();
+				PlayAudioEnemyHitClip(0);
 
 				// Destroy this asteroid and the bullet
 				Destroy(collision.gameObject);
-				Destroy(gameObject);
+				GetComponent<Collider2D>().enabled = false;
+				GetComponent<SpriteRenderer>().enabled = false;
+
+				DestroyAfterDelay(1f);
 			}
 
 			if (collision.gameObject.CompareTag("Player"))
@@ -112,9 +125,11 @@ namespace AstroAssault
 					_playerHealth.Damage(1);
 				}
 
+				PlayAudioEnemyHitClip(0);
+				GetComponent<Collider2D>().enabled = false;
+				GetComponent<SpriteRenderer>().enabled = false;
 
-				// Destroy the asteroid upon collision with the player
-				Destroy(gameObject);
+				DestroyAfterDelay(1f);
 			}
 		}
 
@@ -146,9 +161,27 @@ namespace AstroAssault
 				}
 			}
 		}
+		#endregion
 
+		//Audio
+		#region Audio
+		public void PlayAudioEnemyHitClip(int clipIndex)
+		{
+			if (clipIndex >= 0 && clipIndex < _enemyHitClip.Length)
+			{
+				_hitAudioSource.clip = _enemyHitClip[clipIndex];
+				_hitAudioSource.Play();
+			}
+		}
+		#endregion
 
-
+		//Destruction
+		#region Destruction
+		private IEnumerator DestroyAfterDelay(float delay)
+		{
+			yield return new WaitForSeconds(delay);
+			Destroy(gameObject);
+		}
 		#endregion
 	}
 }

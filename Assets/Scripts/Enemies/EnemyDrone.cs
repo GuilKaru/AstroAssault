@@ -22,6 +22,13 @@ namespace AstroAssault
 		[SerializeField]
 		private Animator _animator;
 
+		[Header("Enemy Audio")]
+		[SerializeField]
+		private AudioSource _hitAudioSource;
+		[SerializeField]
+		private AudioClip[] _enemyHitClip;
+
+
 		[Header("Buffs")]
 		[SerializeField]
 		private GameObject _buff1Prefab; // First buff prefab
@@ -51,7 +58,7 @@ namespace AstroAssault
 		{
 			// Locate the ScoreManager in the scene
 			_scoreManager = FindObjectOfType<ScoreManager>();
-
+			_hitAudioSource = GetComponent<AudioSource>();
 			GameObject player = GameObject.FindGameObjectWithTag("Player");
 			if (player != null)
 			{
@@ -118,8 +125,9 @@ namespace AstroAssault
 				Destroy(collision.gameObject);
 
 				ChangeAnimationState(_deathAnim);
+				PlayAudioEnemyHitClip(0);
 				GetComponent<Collider2D>().enabled = false;
-				StartCoroutine(DestroyAfterDelay(0.70f));
+				StartCoroutine(DestroyAfterDelay(1f));
 			}
 
 
@@ -127,8 +135,9 @@ namespace AstroAssault
 			{
 				_playerHealth.Damage(1);
 				ChangeAnimationState(_deathAnim);
+				PlayAudioEnemyHitClip(0);
 				GetComponent<Collider2D>().enabled = false;
-				StartCoroutine(DestroyAfterDelay(0.70f));
+				StartCoroutine(DestroyAfterDelay(1f));
 			}
 		}
 		#endregion
@@ -181,6 +190,19 @@ namespace AstroAssault
 		{
 			yield return new WaitForSeconds(delay);
 			Destroy(gameObject);
+		}
+		#endregion
+
+		//Enemy Audio
+		#region Enemy Audio
+
+		public void PlayAudioEnemyHitClip(int clipIndex)
+		{
+			if (clipIndex >= 0 && clipIndex < _enemyHitClip.Length)
+			{
+				_hitAudioSource.clip = _enemyHitClip[clipIndex];
+				_hitAudioSource.Play();
+			}
 		}
 		#endregion
 	}

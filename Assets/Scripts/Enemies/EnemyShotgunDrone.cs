@@ -37,6 +37,17 @@ namespace AstroAssault
 		[SerializeField]
 		private Animator _animator;
 
+		[Header("Enemy Audio")]
+		[SerializeField]
+		private AudioSource _shootAudioSource;
+		[SerializeField]
+		private AudioClip[] _shootClips;
+		[SerializeField]
+		private AudioSource _hitAudioSource;
+		[SerializeField]
+		private AudioClip[] _enemyHitClip;
+
+
 		[Header("Buffs")]
 		[SerializeField]
 		private GameObject _buff1Prefab; // First buff prefab
@@ -75,6 +86,9 @@ namespace AstroAssault
 			FindBulletParent();
 			_scoreManager = FindObjectOfType<ScoreManager>();
 			_animator = GetComponent<Animator>();
+			_hitAudioSource = GetComponentInChildren<AudioSource>();
+			_shootAudioSource = GetComponentInChildren<AudioSource>();
+
 			GameObject player = GameObject.FindGameObjectWithTag("Player");
 			if (player != null)
 			{
@@ -123,6 +137,7 @@ namespace AstroAssault
 
 					// Instantiate the bullet
 					GameObject bullet = Instantiate(_enemyBulletPrefab, _shootingPoint.position, finalRotation);
+					PlayAudioShootClip(0);
 
 					// Parent the bullet to BulletParent if it exists
 					if (_bulletParent != null)
@@ -187,8 +202,10 @@ namespace AstroAssault
 				Destroy(collision.gameObject);
 
 				ChangeAnimationState(_deathAnim);
+				PlayAudioEnemyHitClip(0);
+
 				GetComponent<Collider2D>().enabled = false;
-				StartCoroutine(DestroyAfterDelay(0.70f));
+				StartCoroutine(DestroyAfterDelay(1f));
 			}
 
 			if (collision.gameObject.CompareTag("Player"))
@@ -200,8 +217,10 @@ namespace AstroAssault
 				}
 
 				ChangeAnimationState(_deathAnim);
+				PlayAudioEnemyHitClip(0);
+
 				GetComponent<Collider2D>().enabled = false;
-				StartCoroutine(DestroyAfterDelay(0.70f));
+				StartCoroutine(DestroyAfterDelay(1f));
 			}
 		}
 		#endregion
@@ -253,6 +272,28 @@ namespace AstroAssault
 		{
 			yield return new WaitForSeconds(delay);
 			Destroy(gameObject);
+		}
+		#endregion
+
+		//Enemy Audio
+		#region Enemy Audio
+
+		private void PlayAudioShootClip(int clipIndex)
+		{
+			if (clipIndex >= 0 && clipIndex < _shootClips.Length)
+			{
+				_shootAudioSource.clip = _shootClips[clipIndex];
+				_shootAudioSource.Play();
+			}
+		}
+
+		public void PlayAudioEnemyHitClip(int clipIndex)
+		{
+			if (clipIndex >= 0 && clipIndex < _enemyHitClip.Length)
+			{
+				_hitAudioSource.clip = _enemyHitClip[clipIndex];
+				_hitAudioSource.Play();
+			}
 		}
 		#endregion
 

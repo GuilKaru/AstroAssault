@@ -14,12 +14,17 @@ namespace AstroAssault
 		[SerializeField]
 		private float _speed = 20f;
 
+		[SerializeField]
+		private AudioSource _buffAudioSource;
+		[SerializeField]
+		private AudioClip[] _buffClip;
+
 		//Initialization
 		#region Initialization
 		private void Awake()
 		{
 			_buffManager = FindAnyObjectByType<BuffManager>();
-
+			_buffAudioSource = GetComponent<AudioSource>();
 		}
 
 		private void Update()
@@ -48,6 +53,7 @@ namespace AstroAssault
 		{
 			if (collision.CompareTag("Player"))
 			{
+				PlayAudioBuffCollectedClip(0);
 				if (_buffType == "Shotgun")
 				{
 					_buffManager.ActivateShotgunBuff();
@@ -57,7 +63,21 @@ namespace AstroAssault
 					_buffManager.ActivateShieldBuff();
 				}
 
-				Destroy(gameObject); // Remove the pickup after use
+				// Remove the pickup after use
+				GetComponent<Collider2D>().enabled = false;
+				GetComponent<SpriteRenderer>().enabled = false;
+			}
+		}
+		#endregion
+
+		//Audio
+		#region Audio
+		private void PlayAudioBuffCollectedClip(int clipIndex)
+		{
+			if (clipIndex >= 0 && clipIndex < _buffClip.Length)
+			{
+				_buffAudioSource.clip = _buffClip[clipIndex];
+				_buffAudioSource.Play();
 			}
 		}
 		#endregion

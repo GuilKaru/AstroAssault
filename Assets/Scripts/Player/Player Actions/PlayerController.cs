@@ -36,6 +36,16 @@ namespace AstroAssault
 		[SerializeField] private int _shotgunPelletCount = 3;
 		[SerializeField] private float[] _shotgunSpreadAngles = { -30f, 0f, 30f };
 
+		[Header("Player Audio")]
+		[SerializeField]
+		private AudioSource _shootAudioSource;
+		[SerializeField]
+		private AudioClip[] _shootClips;
+		[SerializeField]
+		private AudioSource _hitAudioSource;
+		[SerializeField]
+		private AudioClip[] _playerHitClip;
+
 		[Header("Animation")]
 		[SerializeField]
 		private Animator _animator;
@@ -158,7 +168,7 @@ namespace AstroAssault
 				ChangeAnimationState(_shootStartAnim);
 				_isShooting = true;
 				_shootingCoroutine = StartCoroutine(ShootingCoroutine());
-
+				
 			}
 		}
 
@@ -194,6 +204,7 @@ namespace AstroAssault
 		private void AutomaticShoot()
 		{
 			GameObject bullet = Instantiate(_bulletPrefab, _gunBarrelTransform.position, Quaternion.identity, _bulletParent);
+			PlayAudioShootClip(0);
 			BulletController bulletController = bullet.GetComponent<BulletController>();
 			if (bulletController != null)
 			{
@@ -209,6 +220,7 @@ namespace AstroAssault
 				Quaternion spreadRotation = Quaternion.Euler(0, 0, spread);
 
 				GameObject bullet = Instantiate(_bulletPrefab, _gunBarrelTransform.position, spreadRotation * Quaternion.identity, _bulletParent);
+				PlayAudioShootClip(0);
 				BulletController bulletController = bullet.GetComponent<BulletController>();
 				if (bulletController != null)
 				{
@@ -243,6 +255,41 @@ namespace AstroAssault
 				_rb.MovePosition(Vector2.zero);
 			}
 
+			if (collision.gameObject.CompareTag("Enemy"))
+			{
+				PlayAudioPlayerHitClip(0);
+			}
+
+			if (collision.gameObject.CompareTag("EnemyBullet"))
+			{
+				PlayAudioPlayerHitClip(0);
+			}
+
+		}
+
+
+
+		#endregion
+
+		//Player Audio
+		#region Player Audio
+
+		private void PlayAudioShootClip(int clipIndex)
+		{
+			if (clipIndex >= 0 && clipIndex < _shootClips.Length)
+			{
+				_shootAudioSource.clip = _shootClips[clipIndex];
+				_shootAudioSource.Play();
+			}
+		}
+
+		public void PlayAudioPlayerHitClip(int clipIndex)
+		{
+			if (clipIndex >= 0 && clipIndex < _playerHitClip.Length)
+			{
+				_hitAudioSource.clip = _playerHitClip[clipIndex];
+				_hitAudioSource.Play();
+			}
 		}
 		#endregion
 
@@ -280,8 +327,6 @@ namespace AstroAssault
 		}
 
 		#endregion
-
-
 	}
 }
 
