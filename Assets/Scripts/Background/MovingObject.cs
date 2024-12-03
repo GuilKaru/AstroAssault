@@ -62,13 +62,19 @@ namespace AstroAssault
 				// Increment the waypoint index
 				currentWaypointIndex++;
 
-				// Loop back to the start if necessary
+				// Handle looping or stopping
 				if (currentWaypointIndex >= waypoints.Length)
 				{
 					if (loopWaypoints)
+					{
+						// Teleport back to the first waypoint
 						currentWaypointIndex = 0;
+						transform.position = waypoints[currentWaypointIndex].position; // Teleport to the first waypoint
+					}
 					else
+					{
 						enabled = false; // Stop movement if looping is disabled
+					}
 				}
 			}
 		}
