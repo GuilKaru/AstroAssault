@@ -1,28 +1,10 @@
 fileFormatVersion: 2
-guid: dccd6f3befd8c4a41a4eed4061d7d7ce
+guid: c538e80e46cde5a47bfb5782de5bccc6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4296825402349607378
-    second: CATALYZE_OBJ_003_B_0
-  - first:
-      213: -2509142638839054187
-    second: CATALYZE_OBJ_003_B_1
-  - first:
-      213: 3311025361721853339
-    second: CATALYZE_OBJ_003_B_2
-  - first:
-      213: -6398347130707672769
-    second: CATALYZE_OBJ_003_B_3
-  - first:
-      213: 539894159249378728
-    second: CATALYZE_OBJ_003_B_4
-  - first:
-      213: -4823442119679730866
-    second: CATALYZE_OBJ_003_B_5
-  - first:
-      213: 6350867048609501052
-    second: CATALYZE_OBJ_003_B_6
+      213: -638021731972619247
+    second: CATALYZE_UI_005_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -64,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -170,13 +152,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CATALYZE_OBJ_003_B_0
+      name: CATALYZE_UI_005_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 15
-        width: 573
-        height: 172
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,140 +167,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e26a317ef0c9e54c0800000000000000
-      internalID: -4296825402349607378
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CATALYZE_OBJ_003_B_1
-      rect:
-        serializedVersion: 2
-        x: 612
-        y: 139
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5904631601cbd2dd0800000000000000
-      internalID: -2509142638839054187
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CATALYZE_OBJ_003_B_2
-      rect:
-        serializedVersion: 2
-        x: 612
-        y: 129
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b958dbf160023fd20800000000000000
-      internalID: 3311025361721853339
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CATALYZE_OBJ_003_B_3
-      rect:
-        serializedVersion: 2
-        x: 602
-        y: 113
-        width: 12
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f31878c3f218437a0800000000000000
-      internalID: -6398347130707672769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CATALYZE_OBJ_003_B_4
-      rect:
-        serializedVersion: 2
-        x: 591
-        y: 82
-        width: 13
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8ad0e5a90e61e7700800000000000000
-      internalID: 539894159249378728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CATALYZE_OBJ_003_B_5
-      rect:
-        serializedVersion: 2
-        x: 612
-        y: 87
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e4b15d5a2f0bf0db0800000000000000
-      internalID: -4823442119679730866
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CATALYZE_OBJ_003_B_6
-      rect:
-        serializedVersion: 2
-        x: 591
-        y: 67
-        width: 23
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c7f4a10beefc22850800000000000000
-      internalID: 6350867048609501052
+      spriteID: 114eaca7d9a4527f0800000000000000
+      internalID: -638021731972619247
       vertices: []
       indices: 
       edges: []
@@ -327,7 +177,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -337,13 +187,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CATALYZE_OBJ_003_B_0: -4296825402349607378
-      CATALYZE_OBJ_003_B_1: -2509142638839054187
-      CATALYZE_OBJ_003_B_2: 3311025361721853339
-      CATALYZE_OBJ_003_B_3: -6398347130707672769
-      CATALYZE_OBJ_003_B_4: 539894159249378728
-      CATALYZE_OBJ_003_B_5: -4823442119679730866
-      CATALYZE_OBJ_003_B_6: 6350867048609501052
+      CATALYZE_UI_005_0: -638021731972619247
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

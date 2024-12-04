@@ -16,6 +16,8 @@ namespace AstroAssault
         private GameObject _mainMenu;
         [SerializeField]
         private GameObject _gameCanvas;
+        [SerializeField]
+        private GameObject _tutorialCanvas;
 
         [SerializeField]
         private PlayerData _playerData;
@@ -53,6 +55,11 @@ namespace AstroAssault
         {
             _playerData.username = username;
             _usernameMenu.SetActive(false);
+        }
+
+        public void TutorialToggle(bool active)
+        {
+            _tutorialCanvas.SetActive(active);
         }
 
         public void ScoreUpdateAA()

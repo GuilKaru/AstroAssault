@@ -336,7 +336,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CATALYZE_OBJ_007_A_0: 6269670629855929508
+      CATALYZE_OBJ_007_A_1: 65800049849436507
+      CATALYZE_OBJ_007_A_2: -5826943727271489607
+      CATALYZE_OBJ_007_A_3: -852299307852881577
+      CATALYZE_OBJ_007_A_4: -4133636994958215467
+      CATALYZE_OBJ_007_A_5: 3512116254012424041
+      CATALYZE_OBJ_007_A_6: 8769273520488922664
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
