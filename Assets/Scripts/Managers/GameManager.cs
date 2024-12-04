@@ -11,7 +11,9 @@ namespace AstroAssault
         private void Awake()
         {
             if (gameManager == null) gameManager = this;
-        }
+
+			PlayMusic();
+		}
         #endregion
 
         //Serialize Fields
@@ -29,6 +31,9 @@ namespace AstroAssault
         private GameObject _pauseMenuUI;
 		[SerializeField]
 		private GameObject _gameOverMenuUI;
+
+		[SerializeField]
+		private AudioSource _backgroundMusic;
 		#endregion
 
 		//Activate systems in game
@@ -162,6 +167,44 @@ namespace AstroAssault
 			}
 		}
 
+
+		#endregion
+
+
+		// Music Control Logic
+		#region Music Control
+
+		private void PlayMusic()
+		{
+			if (_backgroundMusic != null && !_backgroundMusic.isPlaying)
+			{
+				_backgroundMusic.Play();
+			}
+		}
+
+		private void PauseMusic()
+		{
+			if (_backgroundMusic != null && _backgroundMusic.isPlaying)
+			{
+				_backgroundMusic.Pause();
+			}
+		}
+
+		private void ResumeMusic()
+		{
+			if (_backgroundMusic != null && !_backgroundMusic.isPlaying)
+			{
+				_backgroundMusic.UnPause();
+			}
+		}
+
+		private void StopMusic()
+		{
+			if (_backgroundMusic != null)
+			{
+				_backgroundMusic.Stop();
+			}
+		}
 
 		#endregion
 	}
