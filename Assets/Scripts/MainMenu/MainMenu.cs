@@ -8,22 +8,24 @@ namespace AstroAssault
     public class MainMenu : MonoBehaviour
     {
         #region Private Variables
+        
         [SerializeField]
         private GameObject _usernameMenu;
         [SerializeField]
         private GameObject _loginMenu;
         [SerializeField]
-        private GameObject _mainMenu;
+        public GameObject _mainMenu;
         [SerializeField]
-        private GameObject _gameCanvas;
+        public GameObject _gameCanvas;
         [SerializeField]
         private GameObject _tutorialCanvas;
 
         [SerializeField]
-        private PlayerData _playerData;
+        public PlayerData _playerData;
 
         [SerializeField]
         private TextMeshProUGUI _scoreTextAA;
+        
         #endregion
 
         public void ChangeLoginMenu()
@@ -67,7 +69,7 @@ namespace AstroAssault
             var principal = UserUtil.GetPrincipal();
             EntityUtil.TryGetFieldAsText(principal, "score", "maxscore", out var outScore, "None");
 
-            if (outScore == "None" || outScore == null)
+            if (outScore is "None" or null)
             {
                 ScoreSafeAA("0");
             }
@@ -78,7 +80,7 @@ namespace AstroAssault
 
         }
 
-        public void ScoreSafeAA(string score)
+        private void ScoreSafeAA(string score)
         {
             _playerData.maxScoreAA = int.Parse(score);
             //MainMenuGameManager.mMgameManager.boomLeadearboardPO.SetLeaderboardEntry("set_leaderboard_1", score, MainMenuGameManager.mMgameManager.playerData.username);

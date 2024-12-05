@@ -26,7 +26,11 @@ namespace AstroAssault
 
         [SerializeField]
         public DifficultyManager difficultyManager;
-
+		[SerializeField]
+		public ScoreManager scoreManager;
+		[SerializeField]
+		public PlayerHealth playerHealth;
+		
         [SerializeField]
         private GameObject _pauseMenuUI;
 		[SerializeField]
@@ -34,6 +38,14 @@ namespace AstroAssault
 
 		[SerializeField]
 		private AudioSource _backgroundMusic;
+		
+		[SerializeField]
+		public MainMenu mainMenu;
+		
+		[SerializeField]
+		private BoomScore _boomScore;
+		[SerializeField]
+		private BoomGameOver _boomGameOver;
 		#endregion
 
 		//Activate systems in game
@@ -83,49 +95,14 @@ namespace AstroAssault
         //Restart Logic
         #region Restart Logic
 
-        public void GameOverUI(bool isPaused)
-        {
-            _gameOverMenuUI.SetActive(!isPaused);
-			EndGame();
-		}
-
-
         public void RestartGame()
         {
-            // Reset the player's health
-            PlayerHealth playerHealth = FindObjectOfType<PlayerHealth>();
-            if (playerHealth != null)
-            {
-                playerHealth.SetPlayerHealth(playerHealth.maxHearts); // Reset to max health
-				playerHealth.ResetDeathStatus(); // Clear death status
-				playerHealth.ResetPosition();
-			}
-
-            // Reset the score
-            ScoreManager scoreManager = FindObjectOfType<ScoreManager>();
-            if (scoreManager != null)
-            {
-                scoreManager.scoreCount = 0;
-                scoreManager.ScoreUpdate();
-            }
-
-            // Reset difficulty
-            if (difficultyManager != null)
-            {
-                difficultyManager.ResetDifficulty();
-            }
-
-			// Clear all enemies from the scene
-			ClearEnemies();
-            ClearBuffs();
-            ClearBullets();
+            ResetLogic();
 
 			_gameOverMenuUI.SetActive(false);
 
 		   // Reset any other game variables
 		   gameStarted = true;
-
-
 
         }
 		public void ClearEnemies()
@@ -167,9 +144,56 @@ namespace AstroAssault
 			}
 		}
 
+		private void ResetLogic()
+		{
+			if (playerHealth != null)
+			{
+				playerHealth.SetPlayerHealth(playerHealth.maxHearts); // Reset to max health
+				playerHealth.ResetDeathStatus(); // Clear death status
+				playerHealth.ResetPosition();
+			}
+
+			// Reset the score
+			if (scoreManager != null)
+			{
+				scoreManager.scoreCount = 0;
+				scoreManager.ScoreUpdate();
+			}
+
+			// Reset difficulty
+			if (difficultyManager != null)
+			{
+				difficultyManager.ResetDifficulty();
+			}
+
+			// Clear all enemies from the scene
+			ClearEnemies();
+			ClearBuffs();
+			ClearBullets();
+		}
 
 		#endregion
 
+		//GameOver Logic
+		#region GameOver Logic
+
+		public void GameOver()
+		{
+			EndGame();
+			_gameOverMenuUI.SetActive(true);
+			_boomScore.ActionButtonClickHandler(scoreManager.scoreCount);
+			_boomGameOver.ActionButtonClickHandler("match_outcome_finish");
+		}
+
+		public void BackToMainMenu()
+		{
+			ResetLogic();
+			
+			mainMenu.gameObject.SetActive(false);
+			_gameOverMenuUI.SetActive(false);
+			mainMenu._mainMenu.SetActive(true);
+		}
+		#endregion
 
 		// Music Control Logic
 		#region Music Control

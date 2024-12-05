@@ -548,9 +548,9 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1884108237}
   - {fileID: 593259437}
   - {fileID: 448420007}
-  - {fileID: 1884108237}
   m_Father: {fileID: 434408434}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1284,7 +1284,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 272606499}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 995290662}
+        m_TargetAssemblyTypeName: AstroAssault.GameManager, Assembly-CSharp
+        m_MethodName: BackToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &272606499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1445,6 +1457,7 @@ GameObject:
   - component: {fileID: 288805768}
   - component: {fileID: 288805767}
   - component: {fileID: 288805766}
+  - component: {fileID: 288805769}
   m_Layer: 0
   m_Name: Login
   m_TagString: Untagged
@@ -1515,19 +1528,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 288805767}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 118484481}
-        m_TargetAssemblyTypeName: AstroAssault.MainMenu, Assembly-CSharp
-        m_MethodName: StartGame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &288805767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1566,6 +1567,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288805764}
   m_CullTransparentMesh: 1
+--- !u!114 &288805769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288805764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4acc59e12e50db94cb34fa88a4ab4bf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 288805766}
+  isEmbeddedAgent: 0
+  noneInteractable: 0
+  loginState: 0
 --- !u!1 &306095906
 GameObject:
   m_ObjectHideFlags: 0
@@ -2959,7 +2976,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &448420007
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3443,6 +3460,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 593259437}
+  - component: {fileID: 593259438}
   m_Layer: 0
   m_Name: UsernameUI
   m_TagString: Untagged
@@ -3472,6 +3490,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &593259438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593259436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41eb9b6b4d14fba4e90f48c58a6140cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  userNameInputField: {fileID: 331076456}
+  actionButton: {fileID: 1585553646}
+  actionId: set_username
+  mainMenu: {fileID: 118484481}
 --- !u!1 &606000408
 GameObject:
   m_ObjectHideFlags: 0
@@ -3489,7 +3523,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &606000409
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3504,10 +3538,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 702589040}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -158.3}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.000030517578, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &606000410
 MonoBehaviour:
@@ -3529,7 +3563,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 99e361a629da8ba46a74482050242ac1, type: 2}
   m_sharedMaterial: {fileID: -4958993102390074024, guid: 99e361a629da8ba46a74482050242ac1, type: 2}
@@ -3556,15 +3590,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3845,7 +3879,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &702589040
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3863,8 +3897,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 376.5, y: -406.097}
+  m_SizeDelta: {x: 799.29, y: 73.1307}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &703473199
 GameObject:
@@ -4815,7 +4849,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c538e80e46cde5a47bfb5782de5bccc6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dbcc4cfc8cf527e47a69f04790271938, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5166,6 +5200,8 @@ GameObject:
   - component: {fileID: 995290661}
   - component: {fileID: 995290663}
   - component: {fileID: 995290662}
+  - component: {fileID: 995290665}
+  - component: {fileID: 995290664}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -5203,9 +5239,14 @@ MonoBehaviour:
   gameStarted: 0
   gamePaused: 0
   difficultyManager: {fileID: 165696137}
+  scoreManager: {fileID: 1686346100}
+  playerHealth: {fileID: 1495712485}
   _pauseMenuUI: {fileID: 869351665}
   _gameOverMenuUI: {fileID: 2089515145}
   _backgroundMusic: {fileID: 239889104}
+  mainMenu: {fileID: 118484481}
+  _boomScore: {fileID: 995290665}
+  _boomGameOver: {fileID: 995290664}
 --- !u!114 &995290663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5220,6 +5261,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   username: 
   maxScoreAA: 0
+--- !u!114 &995290664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995290660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 579d967667736014d84d9720d775873b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &995290665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995290660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa057c68dd96d04da06fa9864a653d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionId: set_max_score
 --- !u!1 &1004497265
 GameObject:
   m_ObjectHideFlags: 0
@@ -6548,6 +6614,7 @@ Transform:
   - {fileID: 995290661}
   - {fileID: 1237999342}
   - {fileID: 1463492155}
+  - {fileID: 1553300559}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1391099716
@@ -6873,54 +6940,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2393423864867871022, guid: bb357f1634528a149871a2f38d213b8b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1463492157}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb357f1634528a149871a2f38d213b8b, type: 3}
 --- !u!4 &1463492155 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2393423864867871021, guid: bb357f1634528a149871a2f38d213b8b, type: 3}
   m_PrefabInstance: {fileID: 1463492154}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1463492156 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2393423864867871022, guid: bb357f1634528a149871a2f38d213b8b, type: 3}
-  m_PrefabInstance: {fileID: 1463492154}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1463492157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1463492156}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 646ddd518a4425344a68bff8c796a2b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onFetchingUserData:
-    m_PersistentCalls:
-      m_Calls: []
-  onLoggedIn:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 118484481}
-        m_TargetAssemblyTypeName: AstroAssault.MainMenu, Assembly-CSharp
-        m_MethodName: ChangeLoginMenu
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onLoggedOut:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &1465819035
 GameObject:
   m_ObjectHideFlags: 0
@@ -6978,7 +7004,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c538e80e46cde5a47bfb5782de5bccc6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dbcc4cfc8cf527e47a69f04790271938, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7903,6 +7929,71 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1495712483}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+--- !u!1 &1553300558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1553300559}
+  - component: {fileID: 1553300560}
+  m_Layer: 0
+  m_Name: LoginManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1553300559
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553300558}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1380266950}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1553300560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553300558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 646ddd518a4425344a68bff8c796a2b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onFetchingUserData:
+    m_PersistentCalls:
+      m_Calls: []
+  onLoggedIn:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 118484481}
+        m_TargetAssemblyTypeName: AstroAssault.MainMenu, Assembly-CSharp
+        m_MethodName: ChangeLoginMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onLoggedOut:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1554486873
 GameObject:
   m_ObjectHideFlags: 0
@@ -8669,7 +8760,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c538e80e46cde5a47bfb5782de5bccc6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dbcc4cfc8cf527e47a69f04790271938, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

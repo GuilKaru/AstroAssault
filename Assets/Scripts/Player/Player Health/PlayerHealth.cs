@@ -80,9 +80,9 @@ namespace AstroAssault
 			// If health reaches 0, trigger GameOver
 			if (currentHearts <= 0 && !IsDead)
 			{
-				GameManager.gameManager.GameOverUI(IsDead);
+				GameManager.gameManager.GameOver();
 				IsDead = true; // Set IsDead to true
-
+				GameManager.gameManager.GameOver();
 			}
 		}
 
