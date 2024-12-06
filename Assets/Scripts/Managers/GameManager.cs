@@ -58,7 +58,7 @@ namespace AstroAssault
         }
 
         //Deactivate everything in game
-        public void EndGame()
+        private void EndGame()
         {
             //Stop stuff
             gameStarted = false;
@@ -69,8 +69,9 @@ namespace AstroAssault
         #region Pause Menu Logic
         public void PauseGame(bool isPaused)
         {
-            _pauseMenuUI.SetActive(!isPaused);
-            if (!isPaused)
+            _pauseMenuUI.SetActive(isPaused);
+            
+            if (isPaused)
             {
                 EndGame();
             }
@@ -86,8 +87,7 @@ namespace AstroAssault
         {
             if (Input.GetKeyDown(KeyCode.Escape))
             {
-                PauseGame(gamePaused);
-
+                PauseGame(!gamePaused);
             }
         }
         #endregion
@@ -105,7 +105,8 @@ namespace AstroAssault
 		   gameStarted = true;
 
         }
-		public void ClearEnemies()
+
+        private void ClearEnemies()
 		{
 			// Assuming the parent GameObject for enemies is called "EnemyParent"
 			GameObject enemyParent = GameObject.Find("EnemyParent");
@@ -118,7 +119,7 @@ namespace AstroAssault
 			}
 		}
 
-		public void ClearBuffs()
+		private void ClearBuffs()
 		{
 			// Assuming the parent GameObject for enemies is called "EnemyParent"
 			GameObject enemyParent = GameObject.Find("BuffParent");
@@ -131,7 +132,7 @@ namespace AstroAssault
 			}
 		}
 
-		public void ClearBullets()
+		private void ClearBullets()
 		{
 			// Assuming the parent GameObject for enemies is called "EnemyParent"
 			GameObject enemyParent = GameObject.Find("BulletParent");
@@ -182,16 +183,17 @@ namespace AstroAssault
 			EndGame();
 			_gameOverMenuUI.SetActive(true);
 			_boomScore.ActionButtonClickHandler(scoreManager.scoreCount);
-			_boomGameOver.ActionButtonClickHandler("match_outcome_finish");
+			//_boomGameOver.ActionButtonClickHandler("match_outcome_finish");
 		}
 
 		public void BackToMainMenu()
 		{
 			ResetLogic();
 			
-			mainMenu.gameObject.SetActive(false);
+			_pauseMenuUI.SetActive(false);
 			_gameOverMenuUI.SetActive(false);
 			mainMenu._mainMenu.SetActive(true);
+			mainMenu._gameCanvas.SetActive(false);
 		}
 		#endregion
 

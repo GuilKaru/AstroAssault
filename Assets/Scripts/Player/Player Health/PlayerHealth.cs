@@ -82,7 +82,6 @@ namespace AstroAssault
 			{
 				GameManager.gameManager.GameOver();
 				IsDead = true; // Set IsDead to true
-				GameManager.gameManager.GameOver();
 			}
 		}
 

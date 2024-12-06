@@ -100,7 +100,8 @@ namespace AstroAssault
             }
             else
             {
-                GameManager.gameManager.mainMenu._playerData.maxScoreAA = score;
+                //GameManager.gameManager.mainMenu._playerData.maxScoreAA = score;
+                GameManager.gameManager.mainMenu.ScoreSafeAA(score.ToString());
             }
 
             //SECTION D: At this point the action was successful, therefore we print the username change

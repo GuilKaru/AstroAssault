@@ -80,7 +80,7 @@ namespace AstroAssault
 
         }
 
-        private void ScoreSafeAA(string score)
+        public void ScoreSafeAA(string score)
         {
             _playerData.maxScoreAA = int.Parse(score);
             //MainMenuGameManager.mMgameManager.boomLeadearboardPO.SetLeaderboardEntry("set_leaderboard_1", score, MainMenuGameManager.mMgameManager.playerData.username);

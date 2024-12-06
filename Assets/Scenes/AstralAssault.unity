@@ -1260,7 +1260,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -1270,8 +1270,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 7770171656105236315, guid: 3c50d68bfee944646bd6f011fa30f2af, type: 3}
+    m_PressedSprite: {fileID: 5465038311145893003, guid: 246d925c7e73629458d6ee561ad1ec6e, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -1281,7 +1281,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 272606499}
+  m_TargetGraphic: {fileID: 1915860367}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -1295,7 +1295,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &272606499
 MonoBehaviour:
@@ -1317,7 +1317,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7770171656105236315, guid: 3c50d68bfee944646bd6f011fa30f2af, type: 3}
+  m_Sprite: {fileID: 2432887639981623173, guid: 7f0b5782d78071f49a03d4ebf7a5f701, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5757,7 +5757,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -5767,8 +5767,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 7770171656105236315, guid: 3c50d68bfee944646bd6f011fa30f2af, type: 3}
+    m_PressedSprite: {fileID: 5465038311145893003, guid: 246d925c7e73629458d6ee561ad1ec6e, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -5778,10 +5778,22 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1091076498}
+  m_TargetGraphic: {fileID: 1915860367}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 995290662}
+        m_TargetAssemblyTypeName: AstroAssault.GameManager, Assembly-CSharp
+        m_MethodName: BackToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1091076498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5802,7 +5814,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7770171656105236315, guid: 3c50d68bfee944646bd6f011fa30f2af, type: 3}
+  m_Sprite: {fileID: 2432887639981623173, guid: 7f0b5782d78071f49a03d4ebf7a5f701, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6889,6 +6901,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1380266950}
     m_Modifications:
+    - target: {fileID: 2393423864867871020, guid: bb357f1634528a149871a2f38d213b8b, type: 3}
+      propertyPath: <BoomSettings>k__BackingField
+      value: 
+      objectReference: {fileID: 11400000, guid: 41a730580e8701349968ec156fc01059, type: 2}
     - target: {fileID: 2393423864867871021, guid: bb357f1634528a149871a2f38d213b8b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 938.3497
@@ -6935,7 +6951,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2393423864867871022, guid: bb357f1634528a149871a2f38d213b8b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8107,19 +8123,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1585553647}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 118484481}
-        m_TargetAssemblyTypeName: AstroAssault.MainMenu, Assembly-CSharp
-        m_MethodName: StartGame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1585553647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8396,7 +8400,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -8406,8 +8410,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 7770171656105236315, guid: 3c50d68bfee944646bd6f011fa30f2af, type: 3}
+    m_PressedSprite: {fileID: 5465038311145893003, guid: 246d925c7e73629458d6ee561ad1ec6e, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -8417,7 +8421,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1701552673}
+  m_TargetGraphic: {fileID: 1915860367}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -8431,7 +8435,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1701552673
 MonoBehaviour:
@@ -8453,7 +8457,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5465038311145893003, guid: 246d925c7e73629458d6ee561ad1ec6e, type: 3}
+  m_Sprite: {fileID: 2432887639981623173, guid: 7f0b5782d78071f49a03d4ebf7a5f701, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9012,7 +9016,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -9022,8 +9026,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 7770171656105236315, guid: 3c50d68bfee944646bd6f011fa30f2af, type: 3}
+    m_PressedSprite: {fileID: 5465038311145893003, guid: 246d925c7e73629458d6ee561ad1ec6e, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -9069,7 +9073,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5465038311145893003, guid: 246d925c7e73629458d6ee561ad1ec6e, type: 3}
+  m_Sprite: {fileID: 2432887639981623173, guid: 7f0b5782d78071f49a03d4ebf7a5f701, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

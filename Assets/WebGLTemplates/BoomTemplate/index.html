@@ -11,33 +11,40 @@
     <link rel="shortcut icon" href="./TemplateData/favicon.ico" />
     <link rel="stylesheet" href="./TemplateData/style.css" />
     <script src="../TemplateData/noble-curves.js"></script>
+    <style>
+      #unity-container {
+        width: 100vw;
+        height: 56.25vw;
+        max-width: 1920px;
+        max-height: 1080px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      #unity-canvas {
+        width: 100%;
+        height: 100%;
+      }
+      #loading-text {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate (-50%, -50%);
+        font-size: 30px;
+        color: white;
+      }
+    </style>
   </head>
   <body class="{{{ SPLASH_SCREEN_STYLE.toLowerCase() }}}">
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas"></canvas>
       <iframe id="loginIframe" src="{{{ LOGIN_WEBPAGE_URL }}}"></iframe>
+      <div id="loading-text">0%</div>
     </div>
     <div id="loading-cover">
       <div id="unity-loading-bar">
-        <div id="unity-title">
-          <img id="unity-title-img" src="./TemplateData/game_name.svg" />
-        </div>
-        <div id="unity-logo">
-          <img id="unity-logo-img" src="./TemplateData/game_logo.svg" />
-        </div>
-
         <div class="loader-wrapper">
-          <div id="loading-container">
-            <div id="unity-loader-circle-base"></div>
-          </div>
-          <div id="loader-over-images">
-            <img src="./TemplateData/boom_char_left.png" class="boom-char" />
-            <img
-              src="./TemplateData/powered_by_image.svg"
-              style="padding-top: 50px"
-            />
-            <img src="./TemplateData/boom_char_right.png" class="boom-char" />
-          </div>
         </div>
       </div>
     </div>
@@ -68,15 +75,16 @@
             const canvas = document.querySelector("#unity-canvas");
             const loadingCover = document.querySelector("#loading-cover");
             const fullscreenButton = document.querySelector("#unity-fullscreen-button");
-            const loader = document.getElementById('unity-loader-circle-base');
+            //const loader = document.getElementById('unity-loader-circle-base');
+            const loadingText = document.getElementById('loading-text');
 
-            const unityLogo = document.getElementById('unity-title-img');
+            /*const unityLogo = document.getElementById('unity-title-img');
             const unityImage = document.getElementById('unity-logo-img');
 
             const playerSettingsUnityLogo = "{{{GAME_TITLE_IMAGE_URL}}}";
-            const playerSettingsUnityImage = "{{{GAME_LOGO_IMAGE_URL}}}";
+            const playerSettingsUnityImage = "{{{GAME_LOGO_IMAGE_URL}}}";*/
 
-            if (
+            /*if (
                   playerSettingsUnityLogo !== "" &&
                   playerSettingsUnityLogo.includes("{") == false
                 ) {
@@ -90,7 +98,7 @@
                   console.log(`Override Unity Image \"${playerSettingsUnityImage}\"`);
 
                   unityImage.src = playerSettingsUnityImage;
-                }
+                }*/
 
 
             const canFullscreen = (function () {
@@ -123,18 +131,13 @@
           script.onload = () => {
             createUnityInstance(canvas, config, (progress) => {
               let x = Math.max(10, Math.ceil(progress * 100));
-              console.log("progress : " + x);
-              let rotation = "0";
-              if (x < 100) {
-                rotation = "rotate(-" + (100 - x) + "deg)";
-              } else {
-                rotation = "rotate(" + 50 + "deg)";
-              }
-              loader.style.transform = rotation;
+              console.log("progress : " + x +"%");
+              loadingText.textContent = x + "%";
             })
               .then((unityInstance) => {
                 gameInstance = unityInstance;
                 loadingCover.style.display = "none";
+                loadingText.style.display = "none";
                 if (canFullscreen) {
                   if (!hideFullScreenButton) {
                     fullscreenButton.style.display = "block";
