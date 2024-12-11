@@ -139,6 +139,7 @@ namespace AstroAssault
 		private void FixedUpdate()
 		{
             if (!GameManager.gameManager.gameStarted) return;
+            if (GameManager.gameManager.gamePaused) return;
 
             MovePlayer();
 			UpdateAnimationState();
@@ -162,6 +163,7 @@ namespace AstroAssault
 		private void OnShootStart(InputAction.CallbackContext context)
 		{
             if (!GameManager.gameManager.gameStarted) return;
+            if (GameManager.gameManager.gamePaused) return;
 
             if (_shootingCoroutine == null)
 			{

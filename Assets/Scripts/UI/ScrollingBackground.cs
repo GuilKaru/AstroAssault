@@ -14,7 +14,8 @@ namespace AstroAssault
         private void Update()
         {
             if (!GameManager.gameManager.gameStarted) return;
-
+            if (GameManager.gameManager.gamePaused) return;
+            
             _bgRenderer.material.mainTextureOffset += new Vector2(speed * Time.deltaTime, 0);
         }
     }

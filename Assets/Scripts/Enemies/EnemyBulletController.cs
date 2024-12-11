@@ -30,6 +30,8 @@ namespace AstroAssault
 		private void Update()
 		{
 			if (!GameManager.gameManager.gameStarted) return;
+			if (GameManager.gameManager.gamePaused) return;
+			
 			HandleLifetime();
 			MoveBullet();
 		}

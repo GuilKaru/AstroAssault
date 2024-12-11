@@ -84,6 +84,7 @@ namespace AstroAssault
         {
             _playerData.maxScoreAA = int.Parse(score);
             //MainMenuGameManager.mMgameManager.boomLeadearboardPO.SetLeaderboardEntry("set_leaderboard_1", score, MainMenuGameManager.mMgameManager.playerData.username);
+            
             _scoreTextAA.text = "Max Score: " + score;
         }
     }

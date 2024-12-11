@@ -52,6 +52,7 @@ namespace AstroAssault
 		private void Update()
 		{
             if (!GameManager.gameManager.gameStarted) return;
+            if (GameManager.gameManager.gamePaused) return;
 
             // Check score every frame
             int currentScore = _scoreManager.GetScore();

@@ -55,6 +55,7 @@ namespace AstroAssault
         {
             difficultyManager.SetSpawners();
             gameStarted = true;
+            gamePaused = false;
         }
 
         //Deactivate everything in game
@@ -67,27 +68,17 @@ namespace AstroAssault
 
         //Pause Menu Logic
         #region Pause Menu Logic
-        public void PauseGame(bool isPaused)
+        public void PauseGame()
         {
-            _pauseMenuUI.SetActive(isPaused);
-            
-            if (isPaused)
-            {
-                EndGame();
-            }
-            else
-            {
-                StartGame();
-            }
-
+            gamePaused = !gamePaused;
+            _pauseMenuUI.SetActive(gamePaused);
         }
-
 
         public void Update()
         {
-            if (Input.GetKeyDown(KeyCode.Escape))
+            if (Input.GetKeyDown(KeyCode.Escape) && gameStarted)
             {
-                PauseGame(!gamePaused);
+                PauseGame();
             }
         }
         #endregion
@@ -188,6 +179,9 @@ namespace AstroAssault
 
 		public void BackToMainMenu()
 		{
+			gameStarted = false;
+			gamePaused = false;
+			
 			ResetLogic();
 			
 			_pauseMenuUI.SetActive(false);

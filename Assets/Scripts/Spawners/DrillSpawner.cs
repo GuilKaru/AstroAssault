@@ -43,6 +43,8 @@ namespace AstroAssault
 		private void SpawnDrill()
 		{
 			if (!GameManager.gameManager.gameStarted) return;
+			if (GameManager.gameManager.gamePaused) return;
+			
 			if (_currentDrills == null || _currentDrills.Length == 0) return;
 
 			// Pick a random drill prefab from the current list

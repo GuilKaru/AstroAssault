@@ -37,7 +37,8 @@ namespace AstroAssault
 		{
 			// Prevent movement if the game hasn't started
 			if (!GameManager.gameManager.gameStarted) return;
-
+			if (GameManager.gameManager.gamePaused) return;
+			
 			if (useWaypoints)
 			{
 				MoveAlongWaypoints();

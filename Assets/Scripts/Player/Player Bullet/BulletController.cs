@@ -9,6 +9,7 @@ namespace AstroAssault
 		private void Update()
 		{
 			if (!GameManager.gameManager.gameStarted) return;
+			if (GameManager.gameManager.gamePaused) return;
 			// Move towards the target
 			transform.position = Vector3.MoveTowards(transform.position, target, Time.deltaTime * 10f);
 

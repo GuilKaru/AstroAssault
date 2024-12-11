@@ -64,6 +64,7 @@ namespace AstroAssault
 		private void Update()
 		{
 			if (!GameManager.gameManager.gameStarted) return;
+			if (GameManager.gameManager.gamePaused) return;
 			// Move the asteroid to the left
 			transform.position += Vector3.left * _moveSpeed * Time.deltaTime;
 
