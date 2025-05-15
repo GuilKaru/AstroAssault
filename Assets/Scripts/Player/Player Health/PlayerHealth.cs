@@ -37,7 +37,7 @@ namespace AstroAssault
 
 		}
 
-		void Update()
+		/*void Update()
 		{
 			// If the invincibilityToggleKey is pressed, toggle the _isInvincible variable
 			if (Input.GetKeyDown(invincibilityToggleKey))
@@ -45,7 +45,7 @@ namespace AstroAssault
 				_isInvincible = !_isInvincible;
 				Debug.Log("Invincibility toggled: " + _isInvincible);
 			}
-		}
+		}*/
 
 		#endregion
 

@@ -10,17 +10,17 @@
       "EdjCase.ICP.WebSockets/1.0.0": {
         "dependencies": {
           "EdjCase.ICP.Agent": "1.0.0",
-          "Moq": "4.18.4"
+          "Moq": "4.20.72"
         },
         "runtime": {
           "EdjCase.ICP.WebSockets.dll": {}
         }
       },
-      "BouncyCastle.Cryptography/2.1.1": {
+      "BouncyCastle.Cryptography/2.4.0": {
         "runtime": {
           "lib/netstandard2.0/BouncyCastle.Cryptography.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.1.1.34079"
+            "fileVersion": "2.4.0.33771"
           }
         }
       },
@@ -43,14 +43,14 @@
           }
         }
       },
-      "Moq/4.18.4": {
+      "Moq/4.20.72": {
         "dependencies": {
           "Castle.Core": "5.1.1"
         },
         "runtime": {
           "lib/netstandard2.1/Moq.dll": {
-            "assemblyVersion": "4.18.0.0",
-            "fileVersion": "4.18.4.0"
+            "assemblyVersion": "4.20.72.0",
+            "fileVersion": "4.20.72.0"
           }
         }
       },
@@ -73,19 +73,19 @@
           }
         }
       },
-      "System.Formats.Asn1/7.0.0": {
+      "System.Formats.Asn1/8.0.1": {
         "dependencies": {
           "System.Buffers": "4.5.1",
           "System.Memory": "4.5.5"
         },
         "runtime": {
           "lib/netstandard2.0/System.Formats.Asn1.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.724.31311"
           }
         }
       },
-      "System.Formats.Cbor/7.0.0": {
+      "System.Formats.Cbor/8.0.0": {
         "dependencies": {
           "Microsoft.Bcl.HashCode": "1.1.1",
           "System.Buffers": "4.5.1",
@@ -94,8 +94,8 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.Formats.Cbor.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
           }
         }
       },
@@ -136,41 +136,39 @@
           }
         }
       },
-      "Wasmtime/8.0.1": {
+      "EdjCase.ICP.Agent/1.0.0": {
+        "dependencies": {
+          "BouncyCastle.Cryptography": "2.4.0",
+          "EdjCase.ICP.BLS": "1.0.0",
+          "EdjCase.ICP.Candid": "1.0.0",
+          "System.Formats.Cbor": "8.0.0"
+        },
         "runtime": {
-          "lib/netstandard2.1/Wasmtime.Dotnet.dll": {
-            "assemblyVersion": "8.0.1.0",
-            "fileVersion": "8.0.1.0"
+          "EdjCase.ICP.Agent.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
-      "EdjCase.ICP.Agent/1.0.0": {
-        "dependencies": {
-          "BouncyCastle.Cryptography": "2.1.1",
-          "EdjCase.ICP.BLS": "1.0.0",
-          "EdjCase.ICP.Candid": "1.0.0",
-          "System.Formats.Cbor": "7.0.0"
-        },
-        "runtime": {
-          "EdjCase.ICP.Agent.dll": {}
-        }
-      },
       "EdjCase.ICP.BLS/1.0.0": {
-        "dependencies": {
-          "Wasmtime": "8.0.1"
-        },
         "runtime": {
-          "EdjCase.ICP.BLS.dll": {}
+          "EdjCase.ICP.BLS.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "EdjCase.ICP.Candid/1.0.0": {
         "dependencies": {
           "Microsoft.Bcl.HashCode": "1.1.1",
-          "System.Formats.Asn1": "7.0.0",
+          "System.Formats.Asn1": "8.0.1",
           "System.Memory": "4.5.5"
         },
         "runtime": {
-          "EdjCase.ICP.Candid.dll": {}
+          "EdjCase.ICP.Candid.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -181,12 +179,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "BouncyCastle.Cryptography/2.1.1": {
+    "BouncyCastle.Cryptography/2.4.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-NNQaa4eyf5YjSdLKUWGPzq5HXZQc3yGybfIOkR6UY1C/rRFWdo0UhSzBqqnxwGnq3ie4vkN0JlzhhANjfTIJIQ==",
-      "path": "bouncycastle.cryptography/2.1.1",
-      "hashPath": "bouncycastle.cryptography.2.1.1.nupkg.sha512"
+      "sha512": "sha512-SwXsAV3sMvAU/Nn31pbjhWurYSjJ+/giI/0n6tCrYoupEK34iIHCuk3STAd9fx8yudM85KkLSVdn951vTng/vQ==",
+      "path": "bouncycastle.cryptography/2.4.0",
+      "hashPath": "bouncycastle.cryptography.2.4.0.nupkg.sha512"
     },
     "Castle.Core/5.1.1": {
       "type": "package",
@@ -202,12 +200,12 @@
       "path": "microsoft.bcl.hashcode/1.1.1",
       "hashPath": "microsoft.bcl.hashcode.1.1.1.nupkg.sha512"
     },
-    "Moq/4.18.4": {
+    "Moq/4.20.72": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IOo+W51+7Afnb0noltJrKxPBSfsgMzTKCw+Re5AMx8l/vBbAbMDOynLik4+lBYIWDJSO0uV7Zdqt7cNb6RZZ+A==",
-      "path": "moq/4.18.4",
-      "hashPath": "moq.4.18.4.nupkg.sha512"
+      "sha512": "sha512-EA55cjyNn8eTNWrgrdZJH5QLFp2L43oxl1tlkoYUKIE9pRwL784OWiTXeCV5ApS+AMYEAlt7Fo03A2XfouvHmQ==",
+      "path": "moq/4.20.72",
+      "hashPath": "moq.4.20.72.nupkg.sha512"
     },
     "System.Buffers/4.5.1": {
       "type": "package",
@@ -223,19 +221,19 @@
       "path": "system.diagnostics.eventlog/4.7.0",
       "hashPath": "system.diagnostics.eventlog.4.7.0.nupkg.sha512"
     },
-    "System.Formats.Asn1/7.0.0": {
+    "System.Formats.Asn1/8.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+nfpV0afLmvJW8+pLlHxRjz3oZJw4fkyU9MMEaMhCsHi/SN9bGF9q79ROubDiwTiCHezmK0uCWkPP7tGFP/4yg==",
-      "path": "system.formats.asn1/7.0.0",
-      "hashPath": "system.formats.asn1.7.0.0.nupkg.sha512"
+      "sha512": "sha512-XqKba7Mm/koKSjKMfW82olQdmfbI5yqeoLV/tidRp7fbh5rmHAQ5raDI/7SU0swTzv+jgqtUGkzmFxuUg0it1A==",
+      "path": "system.formats.asn1/8.0.1",
+      "hashPath": "system.formats.asn1.8.0.1.nupkg.sha512"
     },
-    "System.Formats.Cbor/7.0.0": {
+    "System.Formats.Cbor/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2DvlHGwr0hEXXRv/8j9x4fw9yqJ7638qusWsf3iruVUmRb+mWl5ODSZRtXe5ZH62/0R6qf/QxA8JTrhIRvWlXw==",
-      "path": "system.formats.cbor/7.0.0",
-      "hashPath": "system.formats.cbor.7.0.0.nupkg.sha512"
+      "sha512": "sha512-pOFOuygoSX5Tj82uaDTFQ8ipVOKJWSZtgSdR/uCvvXtnV5z6UbbUWFsaQ/8sBerEstvVjX1DyPcVM7ua7GWHqw==",
+      "path": "system.formats.cbor/8.0.0",
+      "hashPath": "system.formats.cbor.8.0.0.nupkg.sha512"
     },
     "System.Memory/4.5.5": {
       "type": "package",
@@ -264,13 +262,6 @@
       "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
-    },
-    "Wasmtime/8.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-erxCx7kWqnVstw8KBvGnrIEXJSDW4CKKED5mNhJAL9dw3xK8bMbUdamfOchsNEweWwuuyHwjS2KSr1SQ+HNEpg==",
-      "path": "wasmtime/8.0.1",
-      "hashPath": "wasmtime.8.0.1.nupkg.sha512"
     },
     "EdjCase.ICP.Agent/1.0.0": {
       "type": "project",

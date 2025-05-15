@@ -76,18 +76,13 @@ namespace Boom
                 IAgent randomAgent = null;
 
                 var httpClient = new UnityHttpClient();
-#if UNITY_WEBGL && !UNITY_EDITOR
-                var bls = new BypassedBlsCryptography ();
-#else
-                var bls = new WasmBlsCryptography();
-#endif
 
                 try
                 {
                     if (useLocalHost)
-                        randomAgent = new HttpAgent(Ed25519Identity.Generate(), new Uri("http://localhost:4943"), bls);
+                        randomAgent = new HttpAgent(Ed25519Identity.Generate(), new Uri("http://localhost:4943"));
                     else
-                        randomAgent = new HttpAgent(httpClient, Ed25519Identity.Generate(), bls);
+                        randomAgent = new HttpAgent(httpClient, Ed25519Identity.Generate());
                 }
                 catch (Exception e)
                 {
@@ -239,13 +234,13 @@ namespace Boom
 
             if (isLoggedIn == false)
             {
-                CreateAgentUsingIdentityJson(json.data, false).Forget();
+                CreateAgentUsingIdentityJson(json.data).Forget();
                 return;
             }
 
             "You already have an Agent created".Log();
         }
-        public async UniTaskVoid CreateAgentUsingIdentityJson(string json, bool useLocalHost = false)
+        public async UniTaskVoid CreateAgentUsingIdentityJson(string json)
         {
             await UniTask.SwitchToMainThread();
 
@@ -255,13 +250,7 @@ namespace Boom
 
                 var httpClient = new UnityHttpClient();
 
-#if UNITY_WEBGL && !UNITY_EDITOR
-                var bls = new BypassedBlsCryptography ();
-#else
-                var bls = new WasmBlsCryptography();
-#endif
-                if (useLocalHost) await InitializeCandidApis(new HttpAgent(identity, new Uri("http://localhost:4943"), bls));
-                else await InitializeCandidApis(new HttpAgent(httpClient, identity, bls));
+                await InitializeCandidApis(new HttpAgent(httpClient, identity));
 
                 "You have logged in".Log();
             }
@@ -371,10 +360,19 @@ namespace Boom
                 //HERE: YOU CAN REQUEST FOR THE FIRST TIME ON THE GAME THE USER DATA
 
                 //Set Login Data
-                //UserUtil.Clean<DataTypes.LoginData>(new UserUtil.CleanUpType.All());
-                var tierResult = await GuildApiClient.GetUserBoomStakeTier(userPrincipal);
 
-                string tier = tierResult.Tag == Candid.World.Models.Result2Tag.Ok? tierResult.AsOk() : tierResult.AsErr();
+                //TODO: REMOVE THIS CODE AND UNCOMMENT THE ONE BELOW TO ENABLE FETCHING THE BOOM STAKING TIER
+                string tier = "Null";
+                if (GAMING_GUILDS_CANISTER_ID == Env.CanisterIds.GAMING_GUILDS.STAGING)
+                {
+                    var tierResult = await GuildApiClient.GetUserBoomStakeTier(userPrincipal);
+
+                    tier = tierResult.Tag == Candid.World.Models.Result2Tag.Ok ? tierResult.AsOk() : tierResult.AsErr();
+                }
+                
+                //var tierResult = await GuildApiClient.GetUserBoomStakeTier(userPrincipal);
+
+                //string tier = tierResult.Tag == Candid.World.Models.Result2Tag.Ok? tierResult.AsOk() : tierResult.AsErr();
 
                 UserUtil.UpdateMainData(new MainDataTypes.LoginData(agent, userPrincipal, userAccountIdentity, MainDataTypes.LoginData.State.FetchingUserData, LoginManager.Instance.IsEmbeddedAgent, tier));
 
@@ -864,6 +862,13 @@ namespace Boom
             }
 
             var uids = arg.uids;
+
+            //TODO: REMOVE THIS CODE TO ENABLE FETCHING STAKED NFT DATA IN PRODUCTION
+            if(GAMING_GUILDS_CANISTER_ID != Env.CanisterIds.GAMING_GUILDS.STAGING)
+            {
+                UserUtil.UpdateData(uids[0], new DataTypes.StakedNftCollections[0]);
+                return;
+            }
 
             var result = await FetchUtil.GetAllStakedNFTs(GAMING_GUILDS_CANISTER_ID, uids[0]);
 
